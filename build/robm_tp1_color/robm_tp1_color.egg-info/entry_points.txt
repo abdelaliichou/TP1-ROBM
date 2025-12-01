@@ -1,0 +1,2 @@
+[console_scripts]
+couleur = robm_tp1_color.couleur:main

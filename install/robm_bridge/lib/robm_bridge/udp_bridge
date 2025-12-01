@@ -1,10 +1,10 @@
 #!/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12
-# EASY-INSTALL-ENTRY-SCRIPT: 'robm-bridge','console_scripts','udp_bridge'
+# EASY-INSTALL-ENTRY-SCRIPT: 'robm-bridge==0.2.0','console_scripts','udp_bridge'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'robm-bridge'
+__requires__ = 'robm-bridge==0.2.0'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('robm-bridge', 'console_scripts', 'udp_bridge')())
+    sys.exit(load_entry_point('robm-bridge==0.2.0', 'console_scripts', 'udp_bridge')())

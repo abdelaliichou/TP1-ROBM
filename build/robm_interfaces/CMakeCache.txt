@@ -598,6 +598,8 @@ _Python3_INCLUDE_DIR:INTERNAL=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/env
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;12;64;<none>;cpython-312-x86_64-linux-gnu;abi3;/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12;/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12;/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages;/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=08441ba88aba8269103e0711008aa125
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
 _Python3_LIBRARY_RELEASE:INTERNAL=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libpython3.12.so
 _Python3_NUMPY_SIGNATURE:INTERNAL=05a757152927877b168755d80d4cf8a5
