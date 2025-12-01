@@ -560,3 +560,15 @@ msg.front_right = 0.5
 msg.rear_left = -0.5
 msg.rear_right = 0.5
 ```
+
+Maintenant, tu peux lancer tes trois nœuds avec :
+```
+ros2 run robm_tp2_move avance_motor
+```
+```
+ros2 run robm_tp2_move gauche_motor
+```
+```
+ros2 run robm_tp2_move tourne_motor
+```
+
