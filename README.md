@@ -54,9 +54,7 @@ Cette commande active la communication entre le robot et ROS2.
 
 ### 📸 *Capture d’écran : communication avec le robot*
 
-```
-![Topics list](CHEMIN_VERS_L_IMAGE)
-```
+![Topics list](/images/communication.png)
 
 ---
 
@@ -72,9 +70,7 @@ ros2 topic list
 
 ### 📸 *Capture d’écran : liste des topics*
 
-```
-![Topics list](CHEMIN_VERS_L_IMAGE)
-```
+![Topics list](/images/topics.png)
 
 ---
 
@@ -90,9 +86,7 @@ ros2 topic echo /tof
 
 ### 📸 *Capture d’écran : communication avec le robot*
 
-```
-![Topics list](CHEMIN_VERS_L_IMAGE)
-```
+![Topics list](/images/tof.png)
 
 ### **Question : Que se passe-t-il parfois avec les mesures ?**
 
@@ -112,9 +106,7 @@ Cela se produit lorsque :
 
 ### 📸 *Capture d’écran du graphe ToF dans rqt*
 
-```
-![Graphe ToF](CHEMIN_VERS_L_IMAGE)
-```
+![Topics list](/images/tof graph.png)
 
 ---
 
@@ -139,21 +131,18 @@ Voici mes mesures :
 
 ### 📸 *Capture d’écran du Rouge*
 
-```
-![Graphe ToF](CHEMIN_VERS_L_IMAGE)
-```
+![Topics list](/images/rouge.png)
+
 
 ### 📸 *Capture d’écran du Blue*
 
-```
-![Graphe ToF](CHEMIN_VERS_L_IMAGE)
-```
+![Topics list](/images/blue.png)
+
 
 ### 📸 *Capture d’écran du Green*
 
-```
-![Graphe ToF](CHEMIN_VERS_L_IMAGE)
-```
+![Topics list](/images/green.png)
+
 
 ### **Question : À quoi sert ce capteur ?**
 
