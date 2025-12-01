@@ -122,10 +122,9 @@ Voici mes mesures :
 
 | Type de sol | R | G | B | Luminosité |
 | ----------- | - | - | - | ---------- |
-| Blanc       |   |   |   |            |
-| Noir        |   |   |   |            |
-| Rouge       |   |   |   |            |
-| Bois        |   |   |   |            |
+| Bleu        | 1 | 13| 59|     37     |
+| Green       | 6 | 32| 12|     210    |
+| Rouge       | 51| 6 | 8 |     50     |
 
 ### 📸 *Capture d’écran du Rouge*
 
