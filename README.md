@@ -163,7 +163,7 @@ ros2 pkg create --build-type ament_python --node-name couleur robm_tp1_color
 
 ### 📸 *Capture de l’arborescence du package*
 
-![rborescence package](/images/blue.png)
+![rborescence package](/images/structure.png)
 
 ---
 
