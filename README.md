@@ -388,3 +388,49 @@ cd ~/uni_projects/ROBM/robm-pixi
 ```
 ros2 topic echo /topic_name
 ```
+
+
+---
+
+# 📝 **Rapport de TP – Robotique Mobile (TP2)**
+
+**Étudiant :** Abdelali ichou
+**Groupe :** Group1, M2 ILA
+**Date :** 01-12-2025
+
+---
+
+### Configuration du réparation
+
+Mettre à jour le sous-module ROS Pixi
+```
+cd pixi home
+```
+```
+git submodule update --init --recursive --remote
+```
+
+Installer teleop_tools (pour contrôler avec clavier/souris) :
+```
+cd <home>/src
+```
+```
+git clone https://github.com/ros-teleop/teleop_tools.git
+```
+```
+pixi shell
+```
+```
+colcon build
+```
+```
+source install/setup.bash
+```
+
+Connexion au robot dans un autre terminal :
+```
+pixi shell
+```
+```
+ros2 run robm_bridge udp_bridge
+```
