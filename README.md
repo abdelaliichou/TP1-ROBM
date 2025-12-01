@@ -1,7 +1,7 @@
 # 📝 **Rapport de TP – Robotique Mobile (TP1)**
 
 **Étudiant :** Abdelali ichou
-**Groupe :** Groupe1 M2 ILA
+**Groupe :** Group1, M2 ILA
 **Date :** 01-12-2025
 
 ---
@@ -19,35 +19,26 @@ Tous les modules ont été connectés à l’aide des ports Grove conformément 
 
 ### 📸 *Photo de mon robot assemblé*
 
-👉 *Ajouter ici la photo*
-
 ```
 ![Robot assemblé](CHEMIN_VERS_L_IMAGE)
 ```
 
 ---
 
-# ## **2. Mise en route du robot**
+# **2. Mise en route du robot**
 
 ### ✔️ Allumage
 
 * M5StickC Plus activé via le bouton arrière-gauche
-* Base mobile activée via l’interrupteur arrière
-
-L’écran affiche :
-
-* Niveau de batterie
-* Capteurs IMU
-* Nom du robot (utilisé pour le WiFi et ROS2)
-
+  
 ### ✔️ Connexion WiFi
 
-* Réseau : `ROBM_<NomDuRobot>`
+* Réseau : `ROBM_Moulitine`
 * Mot de passe : `WALL-E!SuzanCalvin`
 
 ---
 
-# ## **3. Utilisation de Pixi ROS2**
+# **3. Utilisation de Pixi ROS2**
 
 ### ✔️ Démarrage de l’environnement ROS
 
@@ -63,9 +54,15 @@ pixi run udp_bridge
 
 Cette commande active la communication entre le robot et ROS2.
 
+### 📸 *Capture d’écran : communication avec le robot*
+
+```
+![Topics list](CHEMIN_VERS_L_IMAGE)
+```
+
 ---
 
-# ## **4. Exploration des topics ROS2**
+# **4. Exploration des topics ROS2**
 
 ### ✔️ Liste des topics ROS2
 
@@ -77,8 +74,6 @@ ros2 topic list
 
 ### 📸 *Capture d’écran : liste des topics*
 
-👉 *Ajouter ici*
-
 ```
 ![Topics list](CHEMIN_VERS_L_IMAGE)
 ```
@@ -87,7 +82,7 @@ ros2 topic list
 
 # ## **5. Lecture des données des capteurs**
 
-## ### **5.1 Capteur ToF (distance)**
+## **5.1 Capteur ToF (distance)**
 
 ### ✔️ Lecture des données
 
@@ -95,7 +90,13 @@ ros2 topic list
 ros2 topic echo /tof
 ```
 
-### ❓ **Question : Que se passe-t-il parfois avec les mesures ?**
+### 📸 *Capture d’écran : communication avec le robot*
+
+```
+![Topics list](CHEMIN_VERS_L_IMAGE)
+```
+
+### **Question : Que se passe-t-il parfois avec les mesures ?**
 
 **Réponse :**
 Le capteur ToF renvoie parfois des valeurs incorrectes (0, très grandes valeurs).
@@ -108,8 +109,8 @@ Cela se produit lorsque :
 
 ### 📈 Affichage dans *rqt*
 
-* Ajout d’un onglet `Plot`
-* Ajout d’un `TopicMonitor`
+* Ajout d’un onglet `Plugins/visualization/plot`
+* Ajout d’un `topic/range`
 
 ### 📸 *Capture d’écran du graphe ToF dans rqt*
 
@@ -127,9 +128,9 @@ Cela se produit lorsque :
 ros2 topic echo /color
 ```
 
-### ❓ **Question : Quelles valeurs pour différents sols ?**
+### **Question : Quelles valeurs pour différents sols ?**
 
-Voici mes mesures (exemples, à remplacer par tes valeurs) :
+Voici mes mesures :
 
 | Type de sol | R | G | B | Luminosité |
 | ----------- | - | - | - | ---------- |
@@ -138,20 +139,30 @@ Voici mes mesures (exemples, à remplacer par tes valeurs) :
 | Rouge       |   |   |   |            |
 | Bois        |   |   |   |            |
 
-### ❓ **Question : À quoi sert ce capteur ?**
+### 📸 *Capture d’écran du Rouge*
+
+```
+![Graphe ToF](CHEMIN_VERS_L_IMAGE)
+```
+
+### 📸 *Capture d’écran du Blue*
+
+```
+![Graphe ToF](CHEMIN_VERS_L_IMAGE)
+```
+
+### 📸 *Capture d’écran du Green*
+
+```
+![Graphe ToF](CHEMIN_VERS_L_IMAGE)
+```
+
+### **Question : À quoi sert ce capteur ?**
 
 **Réponse :**
 
 * Reconnaissance de surfaces
-* Suivi de ligne
 * Détection de zones colorées
-* Navigation conditionnelle (ex : rouge = stop)
-
-### 📸 *Capture d’écran des valeurs couleur*
-
-```
-![Color data](CHEMIN_VERS_L_IMAGE)
-```
 
 ---
 
@@ -272,7 +283,7 @@ Le schéma attendu :
 
 ---
 
-# ## **8. Problèmes rencontrés**
+# **8. Problèmes rencontrés**
 
 Exemples (à modifier selon ton expérience) :
 
@@ -283,21 +294,11 @@ Exemples (à modifier selon ton expérience) :
 
 ---
 
-# ## **9. Conclusion**
+# **9. Conclusion**
 
 Ce TP m’a permis de :
 
-* comprendre l’architecture matérielle d’un robot mobile
-* manipuler ROS2 (topics, publishers, subscribers)
+* comprendre & manipuler ROS2 (topics, publishers, subscribers)
 * utiliser *rqt* pour visualiser des données
 * développer un nœud ROS2 fonctionnel de détection de couleur
 * publier un message personnalisé sur un topic
-
-Il constitue une excellente introduction à la robotique mobile, au traitement de capteurs et à la programmation ROS2.
-
----
-
-Si tu veux, je peux :
-👉 générer une **version PDF**
-👉 ajouter automatiquement tes captures (si tu me les donnes)
-👉 reformuler ou raccourcir pour ton enseignant
