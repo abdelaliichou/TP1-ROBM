@@ -286,3 +286,89 @@ Ce TP m’a permis de :
 * utiliser *rqt* pour visualiser des données
 * développer un nœud ROS2 fonctionnel de détection de couleur
 * publier un message personnalisé sur un topic
+
+# 📝 Notes: 
+
+### Démarrage de l’environnement ROS
+
+```
+pixi shell
+```
+
+### Lancement du bridge UDP avec le robot
+
+**You need to be inside shell**
+
+```
+pixi shell
+ros2 run robm_bridge udp_bridge
+```
+
+### Show all avaible topics with the robot
+
+```
+ros2 topic list
+```
+
+### Read data from a topic
+
+```
+ros2 topic echo /topic
+```
+
+```
+ros2 topic echo /color
+```
+
+```
+ros2 topic echo /tof
+```
+
+### Creating new topic package
+
+```
+cd src (obligatory, so it will be created along side with the robm_interfaces) 
+ros2 pkg create --build-type ament_python --node-name Python_noeud_file Topic_package_name
+```
+
+### Inside our Python_noeud_file, we susbsribe to the color topic to receive color data from the robot
+
+```
+self.subscription = self.create_subscription(
+    Color,
+    'color',
+    self.color_callback,
+    10
+)
+```
+
+### Publish the real time sensor color to a topic
+
+```
+self.publisher = self.create_publisher(String, 'topic_name', 10)
+self.publisher.publish("message")
+```
+
+### Running the Python_noeud_file in terminal N1
+
+```
+pixi shell
+cd ~/uni_projects/ROBM/robm-pixi
+colcon build **( obligatory )**
+source install/setup.bash
+ros2 run Topic_package_name Python_noeud_file
+```
+
+### Consuming the Python_noeud_file topic in terminal N2
+
+if we show all the topics, we will se the one created by the package we runned in the previous command
+```
+ros2 topic list
+```
+
+We consume this previous created topic
+```
+pixi shell
+cd ~/uni_projects/ROBM/robm-pixi
+ros2 topic echo /topic_name
+```
