@@ -354,7 +354,7 @@ self.publisher.publish("message")
 ```
 pixi shell
 cd ~/uni_projects/ROBM/robm-pixi
-colcon build **( obligatory )**
+colcon build 
 source install/setup.bash
 ros2 run Topic_package_name Python_noeud_file
 ```
