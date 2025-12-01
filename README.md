@@ -84,7 +84,7 @@ ros2 topic list
 ros2 topic echo /tof
 ```
 
-### 📸 *Capture d’écran : capture du distance *
+### 📸 *Capture d’écran : capture du distance*
 
 ![Topics list](/images/tof.png)
 
