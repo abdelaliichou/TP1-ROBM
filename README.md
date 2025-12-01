@@ -54,7 +54,7 @@ Cette commande active la communication entre le robot et ROS2.
 
 ### 📸 *Capture d’écran : communication avec le robot*
 
-![Topics list](/images/communication.png)
+![Topics list](images/communication.png)
 
 ---
 
@@ -70,7 +70,7 @@ ros2 topic list
 
 ### 📸 *Capture d’écran : liste des topics*
 
-![Topics list](/images/topics.png)
+![Topics list](images/topics.png)
 
 ---
 
@@ -86,7 +86,7 @@ ros2 topic echo /tof
 
 ### 📸 *Capture d’écran : capture du distance*
 
-![Topics list](/images/tof.png)
+![Topics list](images/tof.png)
 
 ### **Question : Que se passe-t-il parfois avec les mesures ?**
 
@@ -104,7 +104,7 @@ Cela se produit lorsque :
 
 ### 📸 *Capture d’écran du graphe ToF dans rqt GUI*
 
-![Topics list](/images/tof_graph.png)
+![Topics list](images/tof_graph.png)
 
 ---
 
@@ -128,17 +128,17 @@ Voici mes mesures :
 
 ### 📸 *Capture d’écran du Rouge*
 
-![Topics list](/images/rouge.png)
+![Topics list](images/rouge.png)
 
 
 ### 📸 *Capture d’écran du Blue*
 
-![Topics list](/images/blue.png)
+![Topics list](images/blue.png)
 
 
 ### 📸 *Capture d’écran du Green*
 
-![Topics list](/images/green.png)
+![Topics list](images/green.png)
 
 
 ### **Question : À quoi sert ce capteur ?**
@@ -162,7 +162,7 @@ ros2 pkg create --build-type ament_python --node-name couleur robm_tp1_color
 
 ### 📸 *Capture de l’arborescence du package*
 
-![rborescence package](/images/structure.png)
+![rborescence package](images/structure.png)
 
 ---
 
