@@ -301,6 +301,8 @@ pixi shell
 
 ```
 pixi shell
+```
+```
 ros2 run robm_bridge udp_bridge
 ```
 
@@ -315,11 +317,9 @@ ros2 topic list
 ```
 ros2 topic echo /topic
 ```
-
 ```
 ros2 topic echo /color
 ```
-
 ```
 ros2 topic echo /tof
 ```
@@ -327,7 +327,9 @@ ros2 topic echo /tof
 ### Creating new topic package
 
 ```
-cd src (obligatory, so it will be created along side with the robm_interfaces) 
+cd src (obligatory, so it will be created along side with the robm_interfaces)
+```
+```
 ros2 pkg create --build-type ament_python --node-name Python_noeud_file Topic_package_name
 ```
 
@@ -346,6 +348,8 @@ self.subscription = self.create_subscription(
 
 ```
 self.publisher = self.create_publisher(String, 'topic_name', 10)
+```
+```
 self.publisher.publish("message")
 ```
 
@@ -353,9 +357,17 @@ self.publisher.publish("message")
 
 ```
 pixi shell
+```
+```
 cd ~/uni_projects/ROBM/robm-pixi
-colcon build 
+```
+```
+colcon build
+```
+```
 source install/setup.bash
+```
+```
 ros2 run Topic_package_name Python_noeud_file
 ```
 
@@ -369,6 +381,10 @@ ros2 topic list
 We consume this previous created topic
 ```
 pixi shell
+```
+```
 cd ~/uni_projects/ROBM/robm-pixi
+```
+```
 ros2 topic echo /topic_name
 ```
