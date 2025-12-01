@@ -434,3 +434,129 @@ pixi shell
 ```
 ros2 run robm_bridge udp_bridge
 ```
+
+### Créer le package ROS2 pour le TP2
+
+```
+cd <home>/src
+```
+
+Créer le package Python
+```
+ros2 pkg create --build-type ament_python --node-name avance_motor robm_tp2_move
+```
+```
+cd ..
+```
+```
+pixi shell
+```
+```
+colcon build
+```
+```
+source install/setup.bash
+```
+
+### Comprendre le message de commande des moteurs
+
+Topic : `cmd_motors`
+
+Type : `robm_interfaces/msg/RoverMotorsCmd`
+
+| Champ       | Signification         | Valeur |
+| ----------- | --------------------- | ------ |
+| front_left  | moteur avant gauche   | -1 à 1 |
+| front_right | moteur avant droit    | -1 à 1 |
+| rear_left   | moteur arrière gauche | -1 à 1 |
+| rear_right  | moteur arrière droit  | -1 à 1 |
+
+`-1` → plein arrière, `1` → plein avant
+
+Contrôle PWM → il faut envoyer les commandes régulièrement pour maintenir le mouvement
+
+### Code de nœud Python : avance_motor.py
+
+```
+import rclpy
+from rclpy.node import Node
+from robm_interfaces.msg import RoverMotorsCmd
+
+class AvanceMotor(Node):
+    def __init__(self):
+        super().__init__('avance_motor')
+
+        # Publisher vers cmd_motors
+        self.publisher = self.create_publisher(RoverMotorsCmd, 'cmd_motors', 10)
+
+        # Timer à 10 Hz
+        self.counter = 0
+        self.max_count = 20  # 20 messages → 2 secondes
+        self.timer = self.create_timer(0.1, self.timer_callback)  # 0.1s = 10Hz
+
+    def timer_callback(self):
+        if self.counter < self.max_count:
+            msg = RoverMotorsCmd()
+            # Déplacement avant : tous moteurs à +0.5
+            msg.front_left = 0.5
+            msg.front_right = 0.5
+            msg.rear_left = 0.5
+            msg.rear_right = 0.5
+
+            self.publisher.publish(msg)
+            self.get_logger().info(f"Commande moteur envoyée ({self.counter+1}/{self.max_count})")
+            self.counter += 1
+        else:
+            # Stop le robot après 2 secondes
+            msg = RoverMotorsCmd()
+            msg.front_left = 0.0
+            msg.front_right = 0.0
+            msg.rear_left = 0.0
+            msg.rear_right = 0.0
+            self.publisher.publish(msg)
+            self.get_logger().info("Arrêt du robot.")
+            self.timer.cancel()
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = AvanceMotor()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+```
+
+### Test du nœud
+
+Lancer udp_bridge dans un terminal1
+```
+pixi shell
+```
+```
+ros2 run robm_tp2_move avance_motor
+```
+
+Visualiser le réseau ROS2
+```
+rqt_graph
+```
+
+### Créer d’autres mouvements
+
+Gauche (translation sur y) : `gauche_motor.py`
+```
+msg.front_left = -0.5
+msg.front_right = 0.5
+msg.rear_left = 0.5
+msg.rear_right = -0.5
+```
+
+Tourner à gauche (rotation sur place) : `tourne_motor.py`
+```
+msg.front_left = -0.5
+msg.front_right = 0.5
+msg.rear_left = -0.5
+msg.rear_right = 0.5
+```
