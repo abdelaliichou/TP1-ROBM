@@ -84,7 +84,7 @@ ros2 topic list
 ros2 topic echo /tof
 ```
 
-### 📸 *Capture d’écran : communication avec le robot*
+### 📸 *Capture d’écran : capture du distance *
 
 ![Topics list](/images/tof.png)
 
@@ -94,9 +94,7 @@ ros2 topic echo /tof
 Le capteur ToF renvoie parfois des valeurs incorrectes (0, très grandes valeurs).
 Cela se produit lorsque :
 
-* aucune réflexion n’est détectée
 * l’objet est trop loin
-* l’angle de réflexion est mauvais
 * le capteur est trop proche de l’objet
 
 ### 📈 Affichage dans *rqt*
@@ -104,9 +102,9 @@ Cela se produit lorsque :
 * Ajout d’un onglet `Plugins/visualization/plot`
 * Ajout d’un `topic/range`
 
-### 📸 *Capture d’écran du graphe ToF dans rqt*
+### 📸 *Capture d’écran du graphe ToF dans rqt GUI*
 
-![Topics list](/images/tof graph.png)
+![Topics list](/images/tof_graph.png)
 
 ---
 
@@ -165,9 +163,7 @@ ros2 pkg create --build-type ament_python --node-name couleur robm_tp1_color
 
 ### 📸 *Capture de l’arborescence du package*
 
-```
-![Arborescence package](CHEMIN_VERS_L_IMAGE)
-```
+![rborescence package](/images/blue.png)
 
 ---
 
@@ -272,12 +268,10 @@ Le schéma attendu :
 
 # **8. Problèmes rencontrés**
 
-Exemples (à modifier selon ton expérience) :
-
 * difficultés de connexion WiFi
-* erreur Python dans le package (ex : permissions)
+* erreur Python dans le package (ex : rclpy)
 * capteur ToF instable
-* problème avec rqt qui ne rafraîchit pas
+* problème avec rqt qui ne rafraîchit pas & très lent
 
 ---
 
