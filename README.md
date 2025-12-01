@@ -228,6 +228,10 @@ def main(args=None):
 ### ✔️ Lancement
 
 ```
+pixi shell
+cd ~/uni_projects/ROBM/robm-pixi
+colcon build
+source install/setup.bash
 ros2 run robm_tp1_color couleur
 ```
 
