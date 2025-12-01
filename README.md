@@ -19,9 +19,7 @@ Tous les modules ont été connectés à l’aide des ports Grove conformément 
 
 ### 📸 *Photo de mon robot assemblé*
 
-```
 ![Robot assemblé](images/robot.png)
-```
 
 ---
 
