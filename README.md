@@ -602,16 +602,36 @@ Maintenant, tu peux lancer tes trois nœuds avec :
 ```
 ros2 run robm_tp2_move avance_motor
 ```
+### 📸 *Capture d’écran du Robot avance*
+
+![Robot movement](images/avance.jpg)
+
 ```
 ros2 run robm_tp2_move back_motor
 ```
+### 📸 *Capture d’écran du Robot back*
+
+![Robot movement](images/back.jpg)
+
 ```
 ros2 run robm_tp2_move droit_motor
 ```
+### 📸 *Capture d’écran du Robot droit*
+
+![Robot movement](images/droit.jpg)
+
 ```
 ros2 run robm_tp2_move gauche_motor
 ```
+### 📸 *Capture d’écran du Robot gauche*
+
+![Robot movement](images/gauche.jpg)
+
 ```
 ros2 run robm_tp2_move tourne_motor
 ```
+### 📸 *Capture d’écran du Robot tourne*
+
+![Robot movement](images/tourne.jpg)
+
 
