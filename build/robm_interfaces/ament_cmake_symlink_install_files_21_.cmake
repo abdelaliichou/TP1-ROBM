@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces" FILES "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robm_interfaces/environment")

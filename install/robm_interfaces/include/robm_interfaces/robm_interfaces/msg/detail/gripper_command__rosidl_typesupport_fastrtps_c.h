@@ -1,0 +1,1 @@
+/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_typesupport_fastrtps_c/robm_interfaces/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h

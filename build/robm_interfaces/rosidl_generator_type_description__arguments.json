@@ -1,0 +1,14 @@
+{
+  "package_name": "robm_interfaces",
+  "output_dir": "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_generator_type_description/robm_interfaces",
+  "idl_tuples": [
+    "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/Color.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/RoverMotorsCmd.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/GripperCommand.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/ServoCommand.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/std_msgs",
+    "builtin_interfaces:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/builtin_interfaces"
+  ]
+}

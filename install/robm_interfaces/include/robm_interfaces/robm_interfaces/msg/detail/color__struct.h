@@ -1,0 +1,1 @@
+/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_generator_c/robm_interfaces/msg/detail/color__struct.h

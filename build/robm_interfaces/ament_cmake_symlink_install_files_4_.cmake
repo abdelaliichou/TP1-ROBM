@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces" FILES "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_generator_type_description/robm_interfaces/msg/ServoCommand.json" "DESTINATION" "share/robm_interfaces/msg")

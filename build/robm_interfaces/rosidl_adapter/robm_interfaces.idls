@@ -1,0 +1,4 @@
+/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/Color.idl
+/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/RoverMotorsCmd.idl
+/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/GripperCommand.idl
+/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_adapter/robm_interfaces:msg/ServoCommand.idl

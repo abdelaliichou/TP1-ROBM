@@ -1,0 +1,1 @@
+/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_generator_cpp/robm_interfaces/msg/detail/gripper_command__traits.hpp

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces" FILES "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robm_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

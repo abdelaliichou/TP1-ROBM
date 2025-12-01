@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robm_interfaces/msg/ServoCommand.msg
+// generated code does not contain a copyright notice
+
+
+module robm_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Control the position of the servomotor" "\n"
+      "Value is in radians, from -pi/2 (looking right) to pi/2 (looking left). Middle position is at 0.0")
+    struct ServoCommand {
+      float angle;
+    };
+  };
+};

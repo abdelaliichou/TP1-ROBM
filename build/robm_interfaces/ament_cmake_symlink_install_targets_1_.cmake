@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/rosidl_generator_py/robm_interfaces/robm_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "robm_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/robm_interfaces")

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/cmake_install.cmake",
+		"/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/robm_interfaces__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robm_interfaces__py",
+		"source" : "/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces/robm_interfaces__py"
+	}
+}
