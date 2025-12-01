@@ -74,7 +74,7 @@ ros2 topic list
 
 ---
 
-# ## **5. Lecture des données des capteurs**
+# **5. Lecture des données des capteurs**
 
 ## **5.1 Capteur ToF (distance)**
 
@@ -110,7 +110,7 @@ Cela se produit lorsque :
 
 ---
 
-## ### **5.2 Capteur Couleur**
+## **5.2 Capteur Couleur**
 
 ### ✔️ Lecture des données
 
@@ -153,9 +153,9 @@ Voici mes mesures :
 
 ---
 
-# ## **6. Développement d’un nœud ROS2 : Détection de couleur**
+# **6. Développement d’un nœud ROS2 : Détection de couleur**
 
-## ### **6.1 Création du package**
+## **6.1 Création du package**
 
 Commande utilisée :
 
@@ -171,7 +171,7 @@ ros2 pkg create --build-type ament_python --node-name couleur robm_tp1_color
 
 ---
 
-## ### **6.2 Code du nœud : abonnement au capteur couleur**
+## **6.2 Code du nœud : abonnement au capteur couleur**
 
 Voici le code utilisé :
 
@@ -228,7 +228,7 @@ def main(args=None):
 
 ---
 
-## ### **6.3 Test du nœud**
+## **6.3 Test du nœud**
 
 ### ✔️ Lancement
 
@@ -250,7 +250,7 @@ ros2 topic echo /nom_couleur
 
 ---
 
-# ## **7. Visualisation du réseau ROS : rqt_graph**
+# **7. Visualisation du réseau ROS : rqt_graph**
 
 ```
 rqt_graph
