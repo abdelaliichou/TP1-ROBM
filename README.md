@@ -545,15 +545,7 @@ rqt_graph
 
 ### Créer d’autres mouvements
 
-Gauche (translation sur y) : `gauche_motor.py`
-```
-msg.front_left = -0.5
-msg.front_right = 0.5
-msg.rear_left = 0.5
-msg.rear_right = -0.5
-```
-
-Tourner à gauche (rotation sur place) : `tourne_motor.py`
+Tourne sur place : `tourne_motor.py`
 ```
 msg.front_left = -0.5
 msg.front_right = 0.5
@@ -561,9 +553,60 @@ msg.rear_left = -0.5
 msg.rear_right = 0.5
 ```
 
+Tourner à gauche : `gauche_motor.py`
+```
+msg.front_left = -0.5
+msg.front_right = 0.5
+msg.rear_left = 0.5
+msg.rear_right = -0.5
+```
+
+Tourner à droit : `droit_motor.py`
+```
+msg.front_left = 0.5
+msg.front_right = -0.5
+msg.rear_left = -0.5
+msg.rear_right = 0.5
+```
+
+Marche arrière : `back_motor.py`
+```
+msg.front_left = -1.0
+msg.front_right = -1.0
+msg.rear_left = -1.0
+msg.rear_right = -1.0
+```
+
+Marche avant : `avance_motor.py`
+```
+msg.front_left = 0.5
+msg.front_right = 0.5
+msg.rear_left = 0.5
+msg.rear_right = 0.5
+```
+
+Inside setup.py we add the shell commands
+```
+ entry_points={
+      'console_scripts': [
+          'avance_motor = robm_tp2_move.avance_motor:main',
+          'gauche_motor = robm_tp2_move.gauche_motor:main',
+          'tourne_motor = robm_tp2_move.tourne_motor:main',
+          'back_motor = robm_tp2_move.back_motor:main',
+          'droit_motor = robm_tp2_move.droit_motor:main',
+      ],
+  },
+```
+
 Maintenant, tu peux lancer tes trois nœuds avec :
 ```
 ros2 run robm_tp2_move avance_motor
+```
+```
+ros2 run robm_tp2_move back_motor
+```
+```
+ros2 run robm_tp2_move droit_motor
 ```
 ```
 ros2 run robm_tp2_move gauche_motor
