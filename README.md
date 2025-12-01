@@ -1,30 +1,12 @@
-# Environnement Pixi pour le module ROBM
-
-## Installation de Pixi
-Nous allons utiliser Pixi (https://pixi.sh) afin d'avoir un environnement ROS 2 pour les TP de ROBM.
-
-### Linux et macOS
-```bash
-curl -fsSL https://pixi.sh/install.sh | bash
-```
-Relancez un terminal pour que la commande `pixi` soit disponible.
-
-Voici un **rapport complet en Markdown**, clair, structuré, avec sections *question/réponse* et des **emplacements pour tes captures d’écran**.
-Tu peux le copier-coller dans ton rapport Moodle.
-
-Si tu veux, je peux aussi générer une version PDF après.
-
----
-
 # 📝 **Rapport de TP – Robotique Mobile (TP1)**
 
-**Étudiant :** *…*
-**Groupe :** *…*
-**Date :** *…*
+**Étudiant :** Abdelali ichou
+**Groupe :** Groupe1 M2 ILA
+**Date :** 01-12-2025
 
 ---
 
-# ## **1. Assemblage du robot**
+# **1. Assemblage du robot**
 
 ### ✔️ Objectif
 
