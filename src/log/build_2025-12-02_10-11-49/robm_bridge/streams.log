@@ -1,0 +1,31 @@
+[1.162s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_bridge': AMENT_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robm_bridge build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/install.log --single-version-externally-managed install_data
+[1.316s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.317s]   warnings.warn(msg)
+[1.421s] running egg_info
+[1.437s] writing ../build/robm_bridge/robm_bridge.egg-info/PKG-INFO
+[1.467s] writing dependency_links to ../build/robm_bridge/robm_bridge.egg-info/dependency_links.txt
+[1.468s] writing entry points to ../build/robm_bridge/robm_bridge.egg-info/entry_points.txt
+[1.468s] writing requirements to ../build/robm_bridge/robm_bridge.egg-info/requires.txt
+[1.469s] writing top-level names to ../build/robm_bridge/robm_bridge.egg-info/top_level.txt
+[1.504s] reading manifest file '../build/robm_bridge/robm_bridge.egg-info/SOURCES.txt'
+[1.511s] adding license file 'LICENSE'
+[1.512s] writing manifest file '../build/robm_bridge/robm_bridge.egg-info/SOURCES.txt'
+[1.512s] running build
+[1.512s] running build_py
+[1.513s] copying robm_bridge/zenoh_bridge.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/build/lib/robm_bridge
+[1.513s] copying robm_bridge/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/build/lib/robm_bridge
+[1.513s] copying robm_bridge/bridge_node.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/build/lib/robm_bridge
+[1.513s] copying robm_bridge/udp_bridge.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/build/lib/robm_bridge
+[1.514s] running install
+[1.518s] running install_lib
+[1.537s] running install_data
+[1.537s] copying resource/robm_bridge -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/share/ament_index/resource_index/packages
+[1.538s] copying package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/share/robm_bridge
+[1.538s] running install_egg_info
+[1.554s] removing '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/lib/python3.12/site-packages/robm_bridge-0.2.0-py3.12.egg-info' (and everything under it)
+[1.555s] Copying ../build/robm_bridge/robm_bridge.egg-info to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/lib/python3.12/site-packages/robm_bridge-0.2.0-py3.12.egg-info
+[1.558s] running install_scripts
+[1.640s] Installing udp_bridge script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/lib/robm_bridge
+[1.640s] Installing zenoh_bridge script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/lib/robm_bridge
+[1.641s] writing list of installed files to '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/install.log'
+[1.669s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_bridge' returned '0': AMENT_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_bridge/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robm_bridge build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_bridge/install.log --single-version-externally-managed install_data

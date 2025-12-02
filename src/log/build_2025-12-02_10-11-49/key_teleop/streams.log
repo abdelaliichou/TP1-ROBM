@@ -1,0 +1,42 @@
+[1.457s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/key_teleop': PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key_teleop build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/install.log --single-version-externally-managed install_data
+[1.622s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.622s]   warnings.warn(msg)
+[1.655s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[1.656s] !!
+[1.656s] 
+[1.656s]         ********************************************************************************
+[1.656s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[1.656s] 
+[1.656s]         License :: OSI Approved :: BSD
+[1.656s] 
+[1.656s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[1.656s]         ********************************************************************************
+[1.656s] 
+[1.656s] !!
+[1.656s]   self._finalize_license_expression()
+[1.727s] running egg_info
+[1.746s] writing ../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[1.747s] writing dependency_links to ../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[1.747s] writing entry points to ../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[1.748s] writing requirements to ../../build/key_teleop/key_teleop.egg-info/requires.txt
+[1.748s] writing top-level names to ../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[1.788s] reading manifest file '../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[1.789s] adding license file 'LICENSE'
+[1.790s] writing manifest file '../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[1.791s] running build
+[1.791s] running build_py
+[1.791s] copying key_teleop/key_teleop.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/build/lib/key_teleop
+[1.791s] copying key_teleop/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/build/lib/key_teleop
+[1.791s] running install
+[1.796s] running install_lib
+[1.813s] running install_data
+[1.813s] copying package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/share/key_teleop
+[1.814s] copying config/key_teleop.yaml -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/share/key_teleop/config
+[1.815s] copying resource/key_teleop -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/share/ament_index/resource_index/packages
+[1.815s] running install_egg_info
+[1.832s] removing '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/lib/python3.12/site-packages/key_teleop-1.8.0-py3.12.egg-info' (and everything under it)
+[1.832s] Copying ../../build/key_teleop/key_teleop.egg-info to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/lib/python3.12/site-packages/key_teleop-1.8.0-py3.12.egg-info
+[1.834s] running install_scripts
+[1.926s] Installing key_teleop script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/lib/key_teleop
+[1.927s] writing list of installed files to '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/install.log'
+[1.958s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/key_teleop' returned '0': PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/key_teleop/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/key_teleop build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/key_teleop/install.log --single-version-externally-managed install_data

@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000058] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.000110] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.000129] (robm_interfaces) JobQueued: {'identifier': 'robm_interfaces', 'dependencies': OrderedDict()}
+[0.000142] (robm_tp1_color) JobQueued: {'identifier': 'robm_tp1_color', 'dependencies': OrderedDict()}
+[0.000152] (robm_tp2_move) JobQueued: {'identifier': 'robm_tp2_move', 'dependencies': OrderedDict()}
+[0.000163] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.000173] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict({'teleop_tools_msgs': '/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs'})}
+[0.000212] (robm_bridge) JobQueued: {'identifier': 'robm_bridge', 'dependencies': OrderedDict({'robm_interfaces': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces'})}
+[0.000249] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict({'key_teleop': '/home/aichou/uni_projects/ROBM/robm-pixi/install/key_teleop', 'teleop_tools_msgs': '/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs', 'joy_teleop': '/home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop'})}
+[0.000705] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.011417] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.019522] (robm_interfaces) JobStarted: {'identifier': 'robm_interfaces'}
+[0.024754] (mouse_teleop) JobStarted: {'identifier': 'mouse_teleop'}
+[0.031409] (robm_tp1_color) JobStarted: {'identifier': 'robm_tp1_color'}
+[0.036897] (robm_tp2_move) JobStarted: {'identifier': 'robm_tp2_move'}
+[0.043494] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.044731] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'build'}
+[0.044802] (teleop_tools_msgs) Command: {'cmd': ['/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake', '--build', '/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs', '--', '-j22', '-l22'], 'cwd': '/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'PIXI_ENVIRONMENT_NAME': 'default', 'USER': 'aichou', 'CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'GCC_RANLIB': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ranlib', 'PIXI_EXE': '/home/aichou/.pixi/bin/pixi', 'OBJCOPY': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-objcopy', 'DEBUG_CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'ROS_ETC_DIR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/etc/ros', 'SIZE': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-size', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/opt/rviz_ogre_vendor/lib:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/aichou', 'CC_FOR_BUILD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cc', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/aichou/uni_projects/ROBM/robm-pixi/src', 'CONDA_TOOLCHAIN_BUILD': 'x86_64-conda-linux-gnu', 'F90': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'ROS_PYTHON_VERSION': '3', 'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -Wl,-rpath-link,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -L/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib', 'FC': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'PS1': '(robm) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'STRINGS': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-strings', 'PIXI_IN_SHELL': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'CPP': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cpp', 'F77': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'F95': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-f95', 'WAYLAND_DISPLAY': 'wayland-0', 'ELFEDIT': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-elfedit', 'COLCON_PREFIX_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install', 'STRIP': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-strip', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'aichou', 'GCC': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc', 'NAME': 'HVS-PF57L2GT', 'WSL_INTEROP': '/run/WSL/38937_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/colcon', 'ROS_VERSION': '2', 'READELF': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-readelf', 'AR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ar', 'GXX': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-g++', 'FC_FOR_BUILD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'TERM': 'xterm-256color', 'AS': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-as', 'PIXI_ENVIRONMENT_PLATFORMS': 'linux-64,win-64,linux-aarch64,osx-arm64,osx-64', 'CXXFILT': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++filt', 'ROS_OS_OVERRIDE': 'conda:linux', 'BUILD': 'x86_64-conda-linux-gnu', 'PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin:/home/aichou/.pixi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/aichou/apache-maven-3.9.10/bin:/mnt/c/Program Files/Git/cmd:/Docker/host/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/aichou/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aichou/Downloads/node-v22.14.0-win-x64/node-v22.14.0-win-x64:/mnt/c/Users/aichou/AppData/Roaming/npm:/mnt/c/Users/aichou/AppData/Local/Programs/GnuPG/bin:/snap/bin', 'PROJ_NETWORK': 'ON', 'build_alias': 'x86_64-conda-linux-gnu', 'WT_SESSION': '5dc2514e-83ef-48c9-9ee6-22252724f9d2', 'PIXI_PROJECT_VERSION': 'NO_VERSION_SPECIFIED', 'PROJ_DATA': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/proj', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'GCC_AR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ar', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'DEBUG_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'MESON_ARGS': '-Dbuildtype=release', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PIXI_PROMPT': '(robm)', 'XML_CATALOG_FILES': 'file:///home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/etc/xml/catalog file:///etc/xml/catalog', 'GSETTINGS_SCHEMA_DIR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default', 'CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'SHELL': '/bin/bash', 'DEBUG_FFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe', 'CMAKE_ARGS': '-DCMAKE_AR=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release', 'HOST': 'x86_64-conda-linux-gnu', 'CXX': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++', 'DEBUG_CPPFLAGS': '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DEBUG_FORTRANFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe', 'CONDA_DEFAULT_ENV': 'robm', 'PIXI_PROJECT_ROOT': '/home/aichou/uni_projects/ROBM/robm-pixi', 'ADDR2LINE': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-addr2line', 'GCC_NM': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-nm', 'GFORTRAN': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'CONDA_BUILD_SYSROOT': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/x86_64-conda-linux-gnu/sysroot', 'PIXI_PROJECT_MANIFEST': '/home/aichou/uni_projects/ROBM/robm-pixi/pixi.toml', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs', 'FFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'PIXI_PROJECT_NAME': 'robm', 'LD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages', 'GPROF': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gprof', 'CONDA_PREFIX': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'CONDA_TOOLCHAIN_HOST': 'x86_64-conda-linux-gnu', 'host_alias': 'x86_64-conda-linux-gnu', 'FORTRANFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'CC': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cc', 'RANLIB': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ranlib', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'CXX_FOR_BUILD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/x86_64-conda-linux-gnu/sysroot/usr:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge', 'NM': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-nm', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:', 'OBJDUMP': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-objdump'}), 'shell': False}
+[0.099444] (-) TimerEvent: {}
+[0.199681] (-) TimerEvent: {}
+[0.279857] (robm_interfaces) JobEnded: {'identifier': 'robm_interfaces', 'rc': 1}
+[0.299827] (-) TimerEvent: {}
+[0.400140] (-) TimerEvent: {}
+[0.499140] (robm_tp1_color) JobEnded: {'identifier': 'robm_tp1_color', 'rc': 1}
+[0.501145] (-) TimerEvent: {}
+[0.501202] (teleop_tools_msgs) StdoutLine: {'line': b'[  2%] \x1b[1m\x1b[34mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.501529] (teleop_tools_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_teleop_tools_msgs\n'}
+[0.501597] (teleop_tools_msgs) StdoutLine: {'line': b'[  2%] Built target teleop_tools_msgs__rosidl_generator_type_description\n'}
+[0.501652] (teleop_tools_msgs) StdoutLine: {'line': b'[  5%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.501703] (teleop_tools_msgs) StdoutLine: {'line': b'[  8%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.502773] (teleop_tools_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.502846] (teleop_tools_msgs) StdoutLine: {'line': b'creating teleop_tools_msgs.egg-info\n'}
+[0.502900] (teleop_tools_msgs) StdoutLine: {'line': b'writing teleop_tools_msgs.egg-info/PKG-INFO\n'}
+[0.502951] (teleop_tools_msgs) StdoutLine: {'line': b'writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt\n'}
+[0.502999] (teleop_tools_msgs) StdoutLine: {'line': b'writing top-level names to teleop_tools_msgs.egg-info/top_level.txt\n'}
+[0.503048] (teleop_tools_msgs) StdoutLine: {'line': b"writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[0.503097] (teleop_tools_msgs) StdoutLine: {'line': b"reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[0.503146] (teleop_tools_msgs) StdoutLine: {'line': b"writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'\n"}
+[0.503193] (teleop_tools_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_teleop_tools_msgs_egg\n'}
+[0.503242] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 'SIGINT'}
+[0.503524] (robm_tp2_move) JobEnded: {'identifier': 'robm_tp2_move', 'rc': 'SIGINT'}
+[0.503773] (mouse_teleop) JobEnded: {'identifier': 'mouse_teleop', 'rc': 'SIGINT'}
+[0.601304] (-) TimerEvent: {}
+[0.646418] (teleop_tools_msgs) StdoutLine: {'line': b'[  8%] Built target teleop_tools_msgs__cpp\n'}
+[0.666671] (teleop_tools_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__description.c.o\x1b[0m\n'}
+[0.666852] (teleop_tools_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o\x1b[0m\n'}
+[0.667235] (teleop_tools_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__type_support.c.o\x1b[0m\n'}
+[0.701444] (-) TimerEvent: {}
+[0.801713] (-) TimerEvent: {}
+[0.901929] (-) TimerEvent: {}
+[1.002114] (-) TimerEvent: {}
+[1.102300] (-) TimerEvent: {}
+[1.202564] (-) TimerEvent: {}
+[1.303294] (-) TimerEvent: {}
+[1.403517] (-) TimerEvent: {}
+[1.503929] (-) TimerEvent: {}
+[1.519387] (teleop_tools_msgs) StdoutLine: {'line': b'[ 20%] \x1b[1m\x1b[32mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.604081] (-) TimerEvent: {}
+[1.704601] (-) TimerEvent: {}
+[1.804877] (-) TimerEvent: {}
+[1.821470] (teleop_tools_msgs) StdoutLine: {'line': b'[ 20%] Built target teleop_tools_msgs__rosidl_generator_c\n'}
+[1.829821] (teleop_tools_msgs) StdoutLine: {'line': b'[ 23%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.830379] (teleop_tools_msgs) StdoutLine: {'line': b'[ 26%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.830516] (teleop_tools_msgs) StdoutLine: {'line': b'[ 29%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.830590] (teleop_tools_msgs) StdoutLine: {'line': b'[ 32%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.833356] (teleop_tools_msgs) StdoutLine: {'line': b'[ 35%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.837292] (teleop_tools_msgs) StdoutLine: {'line': b'[ 38%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.904949] (-) TimerEvent: {}
+[2.005166] (-) TimerEvent: {}
+[2.105411] (-) TimerEvent: {}
+[2.133057] (teleop_tools_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o\x1b[0m\n'}
+[2.150041] (teleop_tools_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o\x1b[0m\n'}
+[2.184809] (teleop_tools_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o\x1b[0m\n'}
+[2.187044] (teleop_tools_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o\x1b[0m\n'}
+[2.205547] (-) TimerEvent: {}
+[2.228926] (teleop_tools_msgs) StdoutLine: {'line': b'[ 52%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.285877] (teleop_tools_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o\x1b[0m\n'}
+[2.302547] (teleop_tools_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o\x1b[0m\n'}
+[2.304288] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] \x1b[1m\x1b[32mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.305622] (-) TimerEvent: {}
+[2.374418] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_c\n'}
+[2.405721] (-) TimerEvent: {}
+[2.431665] (teleop_tools_msgs) StdoutLine: {'line': b'[ 61%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c\n'}
+[2.505859] (-) TimerEvent: {}
+[2.606080] (-) TimerEvent: {}
+[2.706299] (-) TimerEvent: {}
+[2.806581] (-) TimerEvent: {}
+[2.906777] (-) TimerEvent: {}
+[2.992012] (teleop_tools_msgs) StdoutLine: {'line': b'[ 64%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.006976] (-) TimerEvent: {}
+[3.107254] (-) TimerEvent: {}
+[3.206423] (teleop_tools_msgs) StdoutLine: {'line': b'[ 67%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.207447] (-) TimerEvent: {}
+[3.226860] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.231393] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_cpp\n'}
+[3.307690] (-) TimerEvent: {}
+[3.341857] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.365677] (teleop_tools_msgs) StdoutLine: {'line': b'[ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.407835] (-) TimerEvent: {}
+[3.508061] (-) TimerEvent: {}
+[3.608436] (-) TimerEvent: {}
+[3.708640] (-) TimerEvent: {}
+[3.789552] (teleop_tools_msgs) StdoutLine: {'line': b'[ 73%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.810717] (-) TimerEvent: {}
+[3.910973] (-) TimerEvent: {}
+[4.011228] (-) TimerEvent: {}
+[4.056170] (teleop_tools_msgs) StdoutLine: {'line': b'[ 73%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.069708] (teleop_tools_msgs) StdoutLine: {'line': b'[ 73%] Built target teleop_tools_msgs\n'}
+[4.082541] (teleop_tools_msgs) StdoutLine: {'line': b'[ 76%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.111314] (-) TimerEvent: {}
+[4.211581] (-) TimerEvent: {}
+[4.311798] (-) TimerEvent: {}
+[4.412058] (-) TimerEvent: {}
+[4.512403] (-) TimerEvent: {}
+[4.612721] (-) TimerEvent: {}
+[4.712985] (-) TimerEvent: {}
+[4.797876] (teleop_tools_msgs) StdoutLine: {'line': b'[ 76%] Built target teleop_tools_msgs__py\n'}
+[4.812839] (teleop_tools_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o\x1b[0m\n'}
+[4.813128] (-) TimerEvent: {}
+[4.913369] (-) TimerEvent: {}
+[5.013803] (-) TimerEvent: {}
+[5.114235] (-) TimerEvent: {}
+[5.214704] (-) TimerEvent: {}
+[5.315000] (-) TimerEvent: {}
+[5.415313] (-) TimerEvent: {}
+[5.447009] (teleop_tools_msgs) StdoutLine: {'line': b'[ 82%] \x1b[1m\x1b[32mLinking C shared library libteleop_tools_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.515563] (-) TimerEvent: {}
+[5.615879] (-) TimerEvent: {}
+[5.716246] (-) TimerEvent: {}
+[5.737086] (teleop_tools_msgs) StdoutLine: {'line': b'[ 82%] Built target teleop_tools_msgs__rosidl_generator_py\n'}
+[5.752761] (teleop_tools_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.752941] (teleop_tools_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.753006] (teleop_tools_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/teleop_tools_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.816414] (-) TimerEvent: {}
+[5.916689] (-) TimerEvent: {}
+[5.988376] (teleop_tools_msgs) StdoutLine: {'line': b'[ 94%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.995628] (teleop_tools_msgs) StdoutLine: {'line': b'[ 97%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.995803] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.016797] (-) TimerEvent: {}
+[6.091575] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target teleop_tools_msgs_s__rosidl_typesupport_c\n'}
+[6.092119] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target teleop_tools_msgs_s__rosidl_typesupport_introspection_c\n'}
+[6.116903] (-) TimerEvent: {}
+[6.118415] (teleop_tools_msgs) StdoutLine: {'line': b'[100%] Built target teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[6.125498] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 'SIGINT'}
+[6.136090] (joy_teleop) JobSkipped: {'identifier': 'joy_teleop'}
+[6.136161] (robm_bridge) JobSkipped: {'identifier': 'robm_bridge'}
+[6.136175] (teleop_tools) JobSkipped: {'identifier': 'teleop_tools'}
+[6.136188] (-) EventReactorShutdown: {}

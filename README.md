@@ -446,9 +446,6 @@ Créer le package Python
 ros2 pkg create --build-type ament_python --node-name avance_motor robm_tp2_move
 ```
 ```
-cd ..
-```
-```
 pixi shell
 ```
 ```

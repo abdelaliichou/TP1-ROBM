@@ -1,0 +1,39 @@
+[1.439s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_tp2_move': PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robm_tp2_move build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/install.log --single-version-externally-managed install_data
+[1.699s] running egg_info
+[1.712s] writing ../build/robm_tp2_move/robm_tp2_move.egg-info/PKG-INFO
+[1.713s] writing dependency_links to ../build/robm_tp2_move/robm_tp2_move.egg-info/dependency_links.txt
+[1.713s] writing entry points to ../build/robm_tp2_move/robm_tp2_move.egg-info/entry_points.txt
+[1.713s] writing requirements to ../build/robm_tp2_move/robm_tp2_move.egg-info/requires.txt
+[1.714s] writing top-level names to ../build/robm_tp2_move/robm_tp2_move.egg-info/top_level.txt
+[1.754s] reading manifest file '../build/robm_tp2_move/robm_tp2_move.egg-info/SOURCES.txt'
+[1.756s] writing manifest file '../build/robm_tp2_move/robm_tp2_move.egg-info/SOURCES.txt'
+[1.756s] running build
+[1.757s] running build_py
+[1.757s] copying robm_tp2_move/droit_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move
+[1.757s] copying robm_tp2_move/tourne_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move
+[1.757s] copying robm_tp2_move/back_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move
+[1.758s] copying robm_tp2_move/gauche_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move
+[1.758s] copying robm_tp2_move/dynamic_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move
+[1.758s] copying robm_tp2_move/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move
+[1.758s] copying robm_tp2_move/avance_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move
+[1.759s] running install
+[1.763s] running install_lib
+[1.781s] copying /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move/dynamic_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages/robm_tp2_move
+[1.781s] copying /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build/lib/robm_tp2_move/avance_motor.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages/robm_tp2_move
+[1.782s] byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages/robm_tp2_move/dynamic_motor.py to dynamic_motor.cpython-312.pyc
+[1.783s] byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages/robm_tp2_move/avance_motor.py to avance_motor.cpython-312.pyc
+[1.784s] running install_data
+[1.784s] copying resource/robm_tp2_move -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/share/ament_index/resource_index/packages
+[1.785s] copying package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/share/robm_tp2_move
+[1.785s] running install_egg_info
+[1.802s] removing '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages/robm_tp2_move-0.0.0-py3.12.egg-info' (and everything under it)
+[1.802s] Copying ../build/robm_tp2_move/robm_tp2_move.egg-info to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages/robm_tp2_move-0.0.0-py3.12.egg-info
+[1.805s] running install_scripts
+[1.890s] Installing avance_motor script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/robm_tp2_move
+[1.890s] Installing back_motor script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/robm_tp2_move
+[1.890s] Installing droit_motor script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/robm_tp2_move
+[1.891s] Installing dynamic_motor script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/robm_tp2_move
+[1.891s] Installing gauche_motor script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/robm_tp2_move
+[1.891s] Installing tourne_motor script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/robm_tp2_move
+[1.892s] writing list of installed files to '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/install.log'
+[1.924s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_tp2_move' returned '0': PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/robm_tp2_move/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robm_tp2_move build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/robm_tp2_move/install.log --single-version-externally-managed install_data

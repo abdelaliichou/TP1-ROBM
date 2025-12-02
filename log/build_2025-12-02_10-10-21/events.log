@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000088] (key_teleop) JobQueued: {'identifier': 'key_teleop', 'dependencies': OrderedDict()}
+[0.000154] (mouse_teleop) JobQueued: {'identifier': 'mouse_teleop', 'dependencies': OrderedDict()}
+[0.000201] (robm_interfaces) JobQueued: {'identifier': 'robm_interfaces', 'dependencies': OrderedDict()}
+[0.000243] (robm_tp1_color) JobQueued: {'identifier': 'robm_tp1_color', 'dependencies': OrderedDict()}
+[0.000285] (robm_tp2_move) JobQueued: {'identifier': 'robm_tp2_move', 'dependencies': OrderedDict()}
+[0.000325] (teleop_tools_msgs) JobQueued: {'identifier': 'teleop_tools_msgs', 'dependencies': OrderedDict()}
+[0.000368] (joy_teleop) JobQueued: {'identifier': 'joy_teleop', 'dependencies': OrderedDict({'teleop_tools_msgs': '/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs'})}
+[0.000423] (robm_bridge) JobQueued: {'identifier': 'robm_bridge', 'dependencies': OrderedDict({'robm_interfaces': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces'})}
+[0.000442] (teleop_tools) JobQueued: {'identifier': 'teleop_tools', 'dependencies': OrderedDict({'key_teleop': '/home/aichou/uni_projects/ROBM/robm-pixi/install/key_teleop', 'teleop_tools_msgs': '/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs', 'joy_teleop': '/home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop'})}
+[0.000463] (teleop_tools_msgs) JobStarted: {'identifier': 'teleop_tools_msgs'}
+[0.024258] (key_teleop) JobStarted: {'identifier': 'key_teleop'}
+[0.038144] (robm_interfaces) JobStarted: {'identifier': 'robm_interfaces'}
+[0.043102] (mouse_teleop) JobStarted: {'identifier': 'mouse_teleop'}
+[0.052041] (robm_tp1_color) JobStarted: {'identifier': 'robm_tp1_color'}
+[0.057985] (robm_tp2_move) JobStarted: {'identifier': 'robm_tp2_move'}
+[0.070041] (teleop_tools_msgs) JobProgress: {'identifier': 'teleop_tools_msgs', 'progress': 'cmake'}
+[0.075128] (teleop_tools_msgs) Command: {'cmd': ['/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake', '/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools_msgs', '-DCMAKE_INSTALL_PREFIX=/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs'], 'cwd': '/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'PIXI_ENVIRONMENT_NAME': 'default', 'USER': 'aichou', 'CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'GCC_RANLIB': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ranlib', 'PIXI_EXE': '/home/aichou/.pixi/bin/pixi', 'OBJCOPY': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-objcopy', 'DEBUG_CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'ROS_ETC_DIR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/etc/ros', 'SIZE': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-size', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/opt/rviz_ogre_vendor/lib:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/aichou', 'CC_FOR_BUILD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cc', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/aichou/uni_projects/ROBM/robm-pixi/src', 'CONDA_TOOLCHAIN_BUILD': 'x86_64-conda-linux-gnu', 'F90': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'ROS_PYTHON_VERSION': '3', 'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -Wl,-rpath-link,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -L/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib', 'FC': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'PS1': '(robm) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'STRINGS': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-strings', 'PIXI_IN_SHELL': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'CPP': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cpp', 'F77': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'F95': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-f95', 'WAYLAND_DISPLAY': 'wayland-0', 'ELFEDIT': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-elfedit', 'COLCON_PREFIX_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install', 'STRIP': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-strip', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'aichou', 'GCC': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc', 'NAME': 'HVS-PF57L2GT', 'WSL_INTEROP': '/run/WSL/38937_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/colcon', 'ROS_VERSION': '2', 'READELF': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-readelf', 'AR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ar', 'GXX': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-g++', 'FC_FOR_BUILD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'TERM': 'xterm-256color', 'AS': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-as', 'PIXI_ENVIRONMENT_PLATFORMS': 'linux-64,win-64,linux-aarch64,osx-arm64,osx-64', 'CXXFILT': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++filt', 'ROS_OS_OVERRIDE': 'conda:linux', 'BUILD': 'x86_64-conda-linux-gnu', 'PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin:/home/aichou/.pixi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/aichou/apache-maven-3.9.10/bin:/mnt/c/Program Files/Git/cmd:/Docker/host/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/aichou/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aichou/Downloads/node-v22.14.0-win-x64/node-v22.14.0-win-x64:/mnt/c/Users/aichou/AppData/Roaming/npm:/mnt/c/Users/aichou/AppData/Local/Programs/GnuPG/bin:/snap/bin', 'PROJ_NETWORK': 'ON', 'build_alias': 'x86_64-conda-linux-gnu', 'WT_SESSION': '5dc2514e-83ef-48c9-9ee6-22252724f9d2', 'PIXI_PROJECT_VERSION': 'NO_VERSION_SPECIFIED', 'PROJ_DATA': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/proj', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'GCC_AR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ar', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'DEBUG_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'MESON_ARGS': '-Dbuildtype=release', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PIXI_PROMPT': '(robm)', 'XML_CATALOG_FILES': 'file:///home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/etc/xml/catalog file:///etc/xml/catalog', 'GSETTINGS_SCHEMA_DIR': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default', 'CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'SHELL': '/bin/bash', 'DEBUG_FFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe', 'CMAKE_ARGS': '-DCMAKE_AR=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release', 'HOST': 'x86_64-conda-linux-gnu', 'CXX': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++', 'DEBUG_CPPFLAGS': '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DEBUG_FORTRANFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments -ffunction-sections -pipe', 'CONDA_DEFAULT_ENV': 'robm', 'PIXI_PROJECT_ROOT': '/home/aichou/uni_projects/ROBM/robm-pixi', 'ADDR2LINE': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-addr2line', 'GCC_NM': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gcc-nm', 'GFORTRAN': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gfortran', 'CONDA_BUILD_SYSROOT': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/x86_64-conda-linux-gnu/sysroot', 'PIXI_PROJECT_MANIFEST': '/home/aichou/uni_projects/ROBM/robm-pixi/pixi.toml', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs', 'FFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'PIXI_PROJECT_NAME': 'robm', 'LD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages', 'GPROF': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-gprof', 'CONDA_PREFIX': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'CONDA_TOOLCHAIN_HOST': 'x86_64-conda-linux-gnu', 'host_alias': 'x86_64-conda-linux-gnu', 'FORTRANFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -I/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include', 'CC': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cc', 'RANLIB': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ranlib', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'CXX_FOR_BUILD': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/x86_64-conda-linux-gnu/sysroot/usr:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge', 'NM': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-nm', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:', 'OBJDUMP': '/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-objdump'}), 'shell': False}
+[0.098766] (-) TimerEvent: {}
+[0.199033] (-) TimerEvent: {}
+[0.299254] (-) TimerEvent: {}
+[0.366100] (robm_interfaces) JobEnded: {'identifier': 'robm_interfaces', 'rc': 1}
+[0.399319] (-) TimerEvent: {}
+[0.499621] (-) TimerEvent: {}
+[0.599875] (-) TimerEvent: {}
+[0.621409] (robm_tp1_color) JobEnded: {'identifier': 'robm_tp1_color', 'rc': 1}
+[0.625514] (teleop_tools_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.625697] (teleop_tools_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.625786] (teleop_tools_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.625862] (teleop_tools_msgs) StderrLine: {'line': b'\n'}
+[0.625979] (teleop_tools_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.626193] (teleop_tools_msgs) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.626277] (teleop_tools_msgs) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.626346] (teleop_tools_msgs) StderrLine: {'line': b'\n'}
+[0.626412] (teleop_tools_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.626477] (key_teleop) JobEnded: {'identifier': 'key_teleop', 'rc': 'SIGINT'}
+[0.626781] (robm_tp2_move) JobEnded: {'identifier': 'robm_tp2_move', 'rc': 'SIGINT'}
+[0.627038] (mouse_teleop) JobEnded: {'identifier': 'mouse_teleop', 'rc': 'SIGINT'}
+[0.700081] (-) TimerEvent: {}
+[0.800380] (-) TimerEvent: {}
+[0.900720] (-) TimerEvent: {}
+[1.001073] (-) TimerEvent: {}
+[1.101409] (-) TimerEvent: {}
+[1.168920] (teleop_tools_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 14.3.0\n'}
+[1.201609] (-) TimerEvent: {}
+[1.301992] (-) TimerEvent: {}
+[1.402447] (-) TimerEvent: {}
+[1.502811] (-) TimerEvent: {}
+[1.603176] (-) TimerEvent: {}
+[1.703516] (-) TimerEvent: {}
+[1.803783] (-) TimerEvent: {}
+[1.904118] (-) TimerEvent: {}
+[2.004378] (-) TimerEvent: {}
+[2.104741] (-) TimerEvent: {}
+[2.205029] (-) TimerEvent: {}
+[2.305260] (-) TimerEvent: {}
+[2.405492] (-) TimerEvent: {}
+[2.505900] (-) TimerEvent: {}
+[2.606245] (-) TimerEvent: {}
+[2.706792] (-) TimerEvent: {}
+[2.807216] (-) TimerEvent: {}
+[2.907589] (-) TimerEvent: {}
+[3.007886] (-) TimerEvent: {}
+[3.108154] (-) TimerEvent: {}
+[3.208547] (-) TimerEvent: {}
+[3.308803] (-) TimerEvent: {}
+[3.409063] (-) TimerEvent: {}
+[3.509337] (-) TimerEvent: {}
+[3.609632] (-) TimerEvent: {}
+[3.709960] (-) TimerEvent: {}
+[3.810346] (-) TimerEvent: {}
+[3.910723] (-) TimerEvent: {}
+[4.015150] (-) TimerEvent: {}
+[4.117062] (-) TimerEvent: {}
+[4.217473] (-) TimerEvent: {}
+[4.317883] (-) TimerEvent: {}
+[4.418214] (-) TimerEvent: {}
+[4.518501] (-) TimerEvent: {}
+[4.618937] (-) TimerEvent: {}
+[4.719329] (-) TimerEvent: {}
+[4.819845] (-) TimerEvent: {}
+[4.920703] (-) TimerEvent: {}
+[5.021185] (-) TimerEvent: {}
+[5.121515] (-) TimerEvent: {}
+[5.139338] (teleop_tools_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 14.3.0\n'}
+[5.221706] (-) TimerEvent: {}
+[5.322442] (-) TimerEvent: {}
+[5.424104] (-) TimerEvent: {}
+[5.524503] (-) TimerEvent: {}
+[5.624820] (-) TimerEvent: {}
+[5.725188] (-) TimerEvent: {}
+[5.825513] (-) TimerEvent: {}
+[5.925800] (-) TimerEvent: {}
+[6.026114] (-) TimerEvent: {}
+[6.126423] (-) TimerEvent: {}
+[6.226726] (-) TimerEvent: {}
+[6.327137] (-) TimerEvent: {}
+[6.427450] (-) TimerEvent: {}
+[6.528905] (-) TimerEvent: {}
+[6.630210] (-) TimerEvent: {}
+[6.730556] (-) TimerEvent: {}
+[6.830840] (-) TimerEvent: {}
+[6.931160] (-) TimerEvent: {}
+[7.031589] (-) TimerEvent: {}
+[7.131906] (-) TimerEvent: {}
+[7.232296] (-) TimerEvent: {}
+[7.332602] (-) TimerEvent: {}
+[7.432845] (-) TimerEvent: {}
+[7.533067] (-) TimerEvent: {}
+[7.633341] (-) TimerEvent: {}
+[7.734085] (-) TimerEvent: {}
+[7.834460] (-) TimerEvent: {}
+[7.934809] (-) TimerEvent: {}
+[7.968297] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.034948] (-) TimerEvent: {}
+[8.135207] (-) TimerEvent: {}
+[8.235502] (-) TimerEvent: {}
+[8.335743] (-) TimerEvent: {}
+[8.382310] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.404854] (teleop_tools_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cc - skipped\n'}
+[8.406815] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.407801] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.425236] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.435817] (-) TimerEvent: {}
+[8.536095] (-) TimerEvent: {}
+[8.636494] (-) TimerEvent: {}
+[8.736841] (-) TimerEvent: {}
+[8.827124] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.836994] (-) TimerEvent: {}
+[8.849424] (teleop_tools_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++ - skipped\n'}
+[8.850178] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.850754] (teleop_tools_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.901263] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake/cmake)\n'}
+[8.937129] (-) TimerEvent: {}
+[9.037396] (-) TimerEvent: {}
+[9.066447] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter\n'}
+[9.137568] (-) TimerEvent: {}
+[9.237892] (-) TimerEvent: {}
+[9.338237] (-) TimerEvent: {}
+[9.350774] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_default_generators/cmake)\n'}
+[9.370929] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.438360] (-) TimerEvent: {}
+[9.538589] (-) TimerEvent: {}
+[9.627872] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.638678] (-) TimerEvent: {}
+[9.738874] (-) TimerEvent: {}
+[9.749617] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.5 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_adapter/cmake)\n'}
+[9.761924] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_lint_auto/cmake)\n'}
+[9.838966] (-) TimerEvent: {}
+[9.939458] (-) TimerEvent: {}
+[10.039698] (-) TimerEvent: {}
+[10.139964] (-) TimerEvent: {}
+[10.240312] (-) TimerEvent: {}
+[10.343847] (-) TimerEvent: {}
+[10.444112] (-) TimerEvent: {}
+[10.544408] (-) TimerEvent: {}
+[10.644683] (-) TimerEvent: {}
+[10.742277] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_ros_core/cmake)\n'}
+[10.744779] (-) TimerEvent: {}
+[10.844958] (-) TimerEvent: {}
+[10.945203] (-) TimerEvent: {}
+[11.045586] (-) TimerEvent: {}
+[11.145795] (-) TimerEvent: {}
+[11.243432] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.245890] (-) TimerEvent: {}
+[11.346137] (-) TimerEvent: {}
+[11.446402] (-) TimerEvent: {}
+[11.547738] (-) TimerEvent: {}
+[11.648228] (-) TimerEvent: {}
+[11.748512] (-) TimerEvent: {}
+[11.848718] (-) TimerEvent: {}
+[11.948906] (-) TimerEvent: {}
+[11.975811] (teleop_tools_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.049069] (-) TimerEvent: {}
+[12.149313] (-) TimerEvent: {}
+[12.249573] (-) TimerEvent: {}
+[12.349947] (-) TimerEvent: {}
+[12.450228] (-) TimerEvent: {}
+[12.550471] (-) TimerEvent: {}
+[12.650673] (-) TimerEvent: {}
+[12.725623] (teleop_tools_msgs) StdoutLine: {'line': b'-- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[12.750733] (-) TimerEvent: {}
+[12.776184] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.779756] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.782850] (teleop_tools_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.796958] (teleop_tools_msgs) StdoutLine: {'line': b'-- Configuring done (12.6s)\n'}
+[12.844602] (teleop_tools_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[12.850828] (-) TimerEvent: {}
+[12.853954] (teleop_tools_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs\n'}
+[12.863093] (teleop_tools_msgs) JobEnded: {'identifier': 'teleop_tools_msgs', 'rc': 'SIGINT'}
+[12.874166] (joy_teleop) JobSkipped: {'identifier': 'joy_teleop'}
+[12.874216] (robm_bridge) JobSkipped: {'identifier': 'robm_bridge'}
+[12.874231] (teleop_tools) JobSkipped: {'identifier': 'teleop_tools'}
+[12.874244] (-) EventReactorShutdown: {}

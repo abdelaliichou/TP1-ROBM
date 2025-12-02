@@ -13,6 +13,7 @@ robm_tp2_move/__init__.py
 robm_tp2_move/avance_motor.py
 robm_tp2_move/back_motor.py
 robm_tp2_move/droit_motor.py
+robm_tp2_move/dynamic_motor.py
 robm_tp2_move/gauche_motor.py
 robm_tp2_move/tourne_motor.py
 test/test_copyright.py

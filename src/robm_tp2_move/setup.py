@@ -29,6 +29,7 @@ setup(
             'tourne_motor = robm_tp2_move.tourne_motor:main',
             'back_motor = robm_tp2_move.back_motor:main',
             'droit_motor = robm_tp2_move.droit_motor:main',
+            'dynamic_motor = robm_tp2_move.dynamic_motor:main',
         ],
     },
 )
