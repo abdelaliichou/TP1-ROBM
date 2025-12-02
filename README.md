@@ -157,7 +157,19 @@ Voici mes mesures :
 Commande utilisée :
 
 ```
+cd src
+```
+```
 ros2 pkg create --build-type ament_python --node-name couleur robm_tp1_color
+```
+```
+cd ..
+```
+```
+colcon build or pixi run build
+```
+```
+source install/setup.bash
 ```
 
 ### 📸 *Capture de l’arborescence du package*
@@ -229,9 +241,17 @@ def main(args=None):
 
 ```
 pixi shell
+```
+```
 cd ~/uni_projects/ROBM/robm-pixi
-colcon build
+```
+```
+colcon build or pixi run build
+```
+```
 source install/setup.bash
+```
+```
 ros2 run robm_tp1_color couleur
 ```
 
@@ -332,6 +352,15 @@ cd src (obligatory, so it will be created along side with the robm_interfaces)
 ```
 ros2 pkg create --build-type ament_python --node-name Python_noeud_file Topic_package_name
 ```
+```
+cd ..
+```
+```
+colcon build or pixi run build
+```
+```
+source install/setup.bash
+```
 
 ### Inside our Python_noeud_file, we susbsribe to the color topic to receive color data from the robot
 
@@ -362,7 +391,7 @@ pixi shell
 cd ~/uni_projects/ROBM/robm-pixi
 ```
 ```
-colcon build
+colcon build or pixi run build
 ```
 ```
 source install/setup.bash
@@ -418,10 +447,13 @@ cd <home>/src
 git clone https://github.com/ros-teleop/teleop_tools.git
 ```
 ```
+cd ..
+```
+```
 pixi shell
 ```
 ```
-colcon build
+colcon build or pixi run build
 ```
 ```
 source install/setup.bash
@@ -446,10 +478,13 @@ Créer le package Python
 ros2 pkg create --build-type ament_python --node-name avance_motor robm_tp2_move
 ```
 ```
+cd ..
+```
+```
 pixi shell
 ```
 ```
-colcon build
+colcon build or pixi run build
 ```
 ```
 source install/setup.bash
