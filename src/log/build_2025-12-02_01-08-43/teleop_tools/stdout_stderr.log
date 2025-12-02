@@ -1,0 +1,30 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 2.7.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake/cmake)
+-- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools
+-- Install configuration: ""
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/ament_index/resource_index/package_run_dependencies/teleop_tools
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/ament_index/resource_index/parent_prefix_path/teleop_tools
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.sh
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.dsv
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/environment/path.sh
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/environment/path.dsv
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/local_setup.bash
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/local_setup.sh
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/local_setup.zsh
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/local_setup.dsv
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/package.dsv
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/ament_index/resource_index/packages/teleop_tools
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig.cmake
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig-version.cmake
+-- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools/share/teleop_tools/package.xml

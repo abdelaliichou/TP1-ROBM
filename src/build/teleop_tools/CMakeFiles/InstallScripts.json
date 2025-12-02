@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

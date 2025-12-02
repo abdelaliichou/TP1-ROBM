@@ -1,0 +1,56 @@
+[0.532s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/joy_teleop': AMENT_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_teleop build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/install.log --single-version-externally-managed install_data
+[0.611s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.611s]   warnings.warn(msg)
+[0.628s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.628s] !!
+[0.628s] 
+[0.628s]         ********************************************************************************
+[0.628s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.628s] 
+[0.628s]         License :: OSI Approved :: BSD
+[0.628s] 
+[0.628s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.628s]         ********************************************************************************
+[0.628s] 
+[0.628s] !!
+[0.628s]   self._finalize_license_expression()
+[0.664s] running egg_info
+[0.672s] creating ../../build/joy_teleop/joy_teleop.egg-info
+[0.672s] writing ../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[0.672s] writing dependency_links to ../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[0.672s] writing entry points to ../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[0.673s] writing requirements to ../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[0.673s] writing top-level names to ../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[0.673s] writing manifest file '../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[0.690s] reading manifest file '../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[0.691s] writing manifest file '../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[0.691s] running build
+[0.691s] running build_py
+[0.691s] creating /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build/lib/joy_teleop
+[0.691s] copying joy_teleop/joy_teleop.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build/lib/joy_teleop
+[0.694s] copying joy_teleop/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build/lib/joy_teleop
+[0.694s] copying joy_teleop/incrementer_server.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build/lib/joy_teleop
+[0.694s] running install
+[0.697s] running install_lib
+[0.705s] creating /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[0.705s] copying /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[0.705s] copying /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[0.706s] copying /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop
+[0.706s] byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-312.pyc
+[0.707s] byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop/__init__.py to __init__.cpython-312.pyc
+[0.707s] byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-312.pyc
+[0.708s] running install_data
+[0.708s] copying package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/share/joy_teleop
+[0.708s] creating /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/share/joy_teleop/config
+[0.708s] copying config/joy_teleop_example.yaml -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/share/joy_teleop/config
+[0.709s] creating /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/share/joy_teleop/launch
+[0.709s] copying launch/example.launch.py -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/share/joy_teleop/launch
+[0.709s] creating /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/share/ament_index/resource_index/packages
+[0.709s] copying resource/joy_teleop -> /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/share/ament_index/resource_index/packages
+[0.709s] running install_egg_info
+[0.717s] Copying ../../build/joy_teleop/joy_teleop.egg-info to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages/joy_teleop-1.8.0-py3.12.egg-info
+[0.718s] running install_scripts
+[0.762s] Installing incrementer_server script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/joy_teleop
+[0.762s] Installing joy_teleop script to /home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/joy_teleop
+[0.762s] writing list of installed files to '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/install.log'
+[0.780s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/joy_teleop/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_teleop build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/src/build/joy_teleop/install.log --single-version-externally-managed install_data

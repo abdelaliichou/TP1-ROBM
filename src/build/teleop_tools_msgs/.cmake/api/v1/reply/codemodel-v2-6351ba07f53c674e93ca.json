@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a59c81bc086e19355ea9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "teleop_tools_msgs__py",
+					"jsonFile" : "directory-teleop_tools_msgs__py-ed27a752f5c7a261ae14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs/teleop_tools_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "teleop_tools_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_teleop_tools_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_teleop_tools_msgs_egg-662ec026ad49e8f193f2.json",
+					"name" : "ament_cmake_python_build_teleop_tools_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_teleop_tools_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_teleop_tools_msgs-243cc0e78ffc18c1bc95.json",
+					"name" : "ament_cmake_python_copy_teleop_tools_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs-ddc3bb8e28457546f0b5.json",
+					"name" : "teleop_tools_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__cpp-86727bf788d492f10698.json",
+					"name" : "teleop_tools_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "teleop_tools_msgs__py::@9e91fbd60610c0465ccd",
+					"jsonFile" : "target-teleop_tools_msgs__py-896307f8e93fda4b02d3.json",
+					"name" : "teleop_tools_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_generator_c-984c6778604e1f74c3d4.json",
+					"name" : "teleop_tools_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_generator_py-eac5e64d9804f647b665.json",
+					"name" : "teleop_tools_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_generator_type_description-a57691b36032f34154c6.json",
+					"name" : "teleop_tools_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_typesupport_c-a32dfd4a3fa5d12780e0.json",
+					"name" : "teleop_tools_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_typesupport_cpp-a16fe386b7897d90e5e1.json",
+					"name" : "teleop_tools_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_typesupport_fastrtps_c-f0a40aedffab5f535309.json",
+					"name" : "teleop_tools_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp-51772156364293f99120.json",
+					"name" : "teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_typesupport_introspection_c-57be89a6ccbc4960c08a.json",
+					"name" : "teleop_tools_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs__rosidl_typesupport_introspection_cpp-7fd8e0428b174ce48ff0.json",
+					"name" : "teleop_tools_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs_s__rosidl_typesupport_c-3c1e45178c48693e24e4.json",
+					"name" : "teleop_tools_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c-2c0b8efba386b13f5480.json",
+					"name" : "teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs_s__rosidl_typesupport_introspection_c-b3c7cf6fbfe652ee4bad.json",
+					"name" : "teleop_tools_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_tools_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_tools_msgs_uninstall-c695db797dea9abb4b8b.json",
+					"name" : "teleop_tools_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2826e11828c9f9c12b1b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs",
+		"source" : "/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

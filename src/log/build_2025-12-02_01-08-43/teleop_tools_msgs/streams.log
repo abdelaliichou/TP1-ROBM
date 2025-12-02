@@ -1,0 +1,241 @@
+[0.022s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake /home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs
+[0.278s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.278s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.278s]   CMake.
+[0.278s] 
+[0.278s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.279s]   to tell CMake that the project requires at least <min> but has been updated
+[0.279s]   to work with policies introduced by <max> or earlier.
+[0.279s] 
+[0.279s] [0m
+[0.343s] -- The C compiler identification is GNU 14.3.0
+[1.277s] -- The CXX compiler identification is GNU 14.3.0
+[1.920s] -- Detecting C compiler ABI info
+[2.045s] -- Detecting C compiler ABI info - done
+[2.056s] -- Check for working C compiler: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cc - skipped
+[2.057s] -- Detecting C compile features
+[2.058s] -- Detecting C compile features - done
+[2.067s] -- Detecting CXX compiler ABI info
+[2.175s] -- Detecting CXX compiler ABI info - done
+[2.188s] -- Check for working CXX compiler: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++ - skipped
+[2.188s] -- Detecting CXX compile features
+[2.188s] -- Detecting CXX compile features - done
+[2.209s] -- Found ament_cmake: 2.7.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake/cmake)
+[2.286s] -- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter
+[2.395s] -- Found rosidl_default_generators: 1.7.1 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_default_generators/cmake)
+[2.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.581s] -- Found rosidl_adapter: 4.9.5 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_adapter/cmake)
+[2.588s] -- Found ament_lint_auto: 0.19.2 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_lint_auto/cmake)
+[3.038s] -- Found ament_cmake_ros_core: 0.14.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_ros_core/cmake)
+[3.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.905s] -- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed
+[3.940s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.942s] -- Added test 'lint_cmake' to check CMake code style
+[3.943s] -- Added test 'xmllint' to check XML markup files
+[3.952s] -- Configuring done (3.9s)
+[3.985s] -- Generating done (0.0s)
+[3.991s] -- Build files have been written to: /home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs
+[3.998s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake /home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs
+[3.999s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --build /home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs -- -j22 -l22
+[4.020s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[4.023s] [  2%] Built target ament_cmake_python_copy_teleop_tools_msgs
+[4.137s] [  2%] Built target teleop_tools_msgs__rosidl_generator_type_description
+[4.141s] [  5%] [1m[34mGenerating C code for ROS interfaces[0m
+[4.145s] [  8%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[4.149s] running egg_info
+[4.158s] creating teleop_tools_msgs.egg-info
+[4.158s] writing teleop_tools_msgs.egg-info/PKG-INFO
+[4.159s] writing dependency_links to teleop_tools_msgs.egg-info/dependency_links.txt
+[4.159s] writing top-level names to teleop_tools_msgs.egg-info/top_level.txt
+[4.159s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[4.192s] reading manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[4.192s] writing manifest file 'teleop_tools_msgs.egg-info/SOURCES.txt'
+[4.212s] [  8%] Built target ament_cmake_python_build_teleop_tools_msgs_egg
+[4.360s] [  8%] Built target teleop_tools_msgs__cpp
+[4.385s] [ 14%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o[0m
+[4.386s] [ 14%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__description.c.o[0m
+[4.386s] [ 17%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__type_support.c.o[0m
+[4.893s] [ 20%] [1m[32mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so[0m
+[5.018s] [ 20%] Built target teleop_tools_msgs__rosidl_generator_c
+[5.026s] [ 23%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[5.026s] [ 29%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[5.026s] [ 29%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[5.027s] [ 32%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.030s] [ 35%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[5.032s] [ 38%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.366s] [ 41%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o[0m
+[5.390s] [ 44%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[5.466s] [ 47%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[5.491s] [ 50%] [1m[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so[0m
+[5.528s] [ 52%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o[0m
+[5.596s] [ 55%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o[0m
+[5.617s] [ 58%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o[0m
+[5.689s] [ 58%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[5.796s] [ 61%] [1m[32mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.931s] [ 61%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[6.336s] [ 64%] [1m[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so[0m
+[6.504s] [ 64%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[6.513s] [ 67%] [1m[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.606s] [ 70%] [1m[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.638s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[6.725s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[6.980s] [ 73%] [1m[32mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.078s] [ 73%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[7.085s] [ 73%] Built target teleop_tools_msgs
+[7.093s] [ 76%] [1m[34mGenerating Python code for ROS interfaces[0m
+[7.415s] [ 76%] Built target teleop_tools_msgs__py
+[7.422s] [ 79%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o[0m
+[7.750s] [ 82%] [1m[32mLinking C shared library libteleop_tools_msgs__rosidl_generator_py.so[0m
+[7.829s] [ 82%] Built target teleop_tools_msgs__rosidl_generator_py
+[7.837s] [ 88%] [32mBuilding C object CMakeFiles/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.837s] [ 88%] [32mBuilding C object CMakeFiles/teleop_tools_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.837s] [ 91%] [32mBuilding C object CMakeFiles/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.975s] [ 94%] [1m[32mLinking C shared module rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.so[0m
+[7.978s] [ 97%] [1m[32mLinking C shared module rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[7.984s] [100%] [1m[32mLinking C shared module rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.033s] [100%] Built target teleop_tools_msgs_s__rosidl_typesupport_introspection_c
+[8.033s] [100%] Built target teleop_tools_msgs_s__rosidl_typesupport_c
+[8.053s] [100%] Built target teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c
+[8.057s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --build /home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs -- -j22 -l22
+[8.058s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --install /home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs
+[8.061s] -- Install configuration: ""
+[8.061s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/ament_index/resource_index/rosidl_interfaces/teleop_tools_msgs
+[8.061s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.json
+[8.061s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs
+[8.061s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg
+[8.061s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.061s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.c
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__functions.c
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__struct.h
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.h
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__description.c
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__functions.h
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/increment.h
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.sh
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.dsv
+[8.062s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so
+[8.062s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs
+[8.063s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg
+[8.063s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.063s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action
+[8.063s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail
+[8.063s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_c.h
+[8.063s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so
+[8.063s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.063s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs
+[8.063s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.064s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action
+[8.064s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.c
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so
+[8.064s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so
+[8.064s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so" to ""
+[8.064s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs
+[8.064s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.064s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action
+[8.064s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.hpp
+[8.064s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__traits.hpp
+[8.065s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__struct.hpp
+[8.065s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__builder.hpp
+[8.065s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/increment.hpp
+[8.065s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs
+[8.065s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg
+[8.065s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.065s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action
+[8.065s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail
+[8.065s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/dds_fastrtps
+[8.065s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_cpp.hpp
+[8.065s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.066s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.066s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs
+[8.066s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action
+[8.066s] -- Up-to-date: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail
+[8.066s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_cpp.hpp
+[8.066s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/include/teleop_tools_msgs/teleop_tools_msgs/action/detail/increment__type_support.cpp
+[8.066s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so
+[8.066s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.066s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so
+[8.066s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so" to ""
+[8.066s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.sh
+[8.066s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.dsv
+[8.066s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs-2.0.0-py3.12.egg-info
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs-2.0.0-py3.12.egg-info/top_level.txt
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs-2.0.0-py3.12.egg-info/SOURCES.txt
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs-2.0.0-py3.12.egg-info/PKG-INFO
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs-2.0.0-py3.12.egg-info/dependency_links.txt
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.so
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/action
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/action/_increment.py
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/action/__init__.py
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/action/_increment_s.c
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/__init__.py
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.so
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c
+[8.067s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.092s] Listing '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs'...
+[8.092s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/__init__.py'...
+[8.092s] Listing '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/action'...
+[8.092s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/action/__init__.py'...
+[8.092s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/action/_increment.py'...
+[8.095s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.095s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.095s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.so
+[8.096s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[8.096s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.so
+[8.096s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/python3.12/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.so" to ""
+[8.096s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_py.so
+[8.096s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_py.so" to ""
+[8.097s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.idl
+[8.097s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.action
+[8.097s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/ament_index/resource_index/package_run_dependencies/teleop_tools_msgs
+[8.097s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/ament_index/resource_index/parent_prefix_path/teleop_tools_msgs
+[8.097s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.sh
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.dsv
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.sh
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.dsv
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.bash
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.sh
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.zsh
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.dsv
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/ament_index/resource_index/packages/teleop_tools_msgs
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cExport.cmake
+[8.098s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_cppExport.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.099s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_pyExport.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/export_teleop_tools_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake-extras.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.100s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.101s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.101s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.101s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.101s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.101s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig.cmake
+[8.101s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig-version.cmake
+[8.101s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/src/install/teleop_tools_msgs/share/teleop_tools_msgs/package.xml
+[8.102s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --install /home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs

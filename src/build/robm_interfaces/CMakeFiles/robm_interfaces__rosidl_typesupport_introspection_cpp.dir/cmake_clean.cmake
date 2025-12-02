@@ -1,0 +1,26 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/link.d"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/color__type_support.cpp.o"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/color__type_support.cpp.o.d"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/gripper_command__type_support.cpp.o"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/gripper_command__type_support.cpp.o.d"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/rover_motors_cmd__type_support.cpp.o"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/rover_motors_cmd__type_support.cpp.o.d"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/servo_command__type_support.cpp.o"
+  "CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/servo_command__type_support.cpp.o.d"
+  "librobm_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "librobm_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/color__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/gripper_command__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/rover_motors_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/rover_motors_cmd__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/servo_command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/servo_command__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

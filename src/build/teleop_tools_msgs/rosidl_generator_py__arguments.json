@@ -1,0 +1,42 @@
+{
+  "package_name": "teleop_tools_msgs",
+  "output_dir": "/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs/rosidl_generator_py/teleop_tools_msgs",
+  "template_dir": "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs/rosidl_adapter/teleop_tools_msgs:action/Increment.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/rosidl_generator_py/__init__.py",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/src/build/teleop_tools_msgs/rosidl_adapter/teleop_tools_msgs/action/Increment.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/builtin_interfaces/msg/Duration.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/builtin_interfaces/msg/Time.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/msg/GoalInfo.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/msg/GoalStatus.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/msg/GoalStatusArray.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/action_msgs/srv/CancelGoal.idl",
+    "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}
