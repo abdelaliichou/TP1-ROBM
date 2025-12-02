@@ -1,0 +1,6 @@
+[console_scripts]
+avance_motor = robm_tp2_move.avance_motor:main
+back_motor = robm_tp2_move.back_motor:main
+droit_motor = robm_tp2_move.droit_motor:main
+gauche_motor = robm_tp2_move.gauche_motor:main
+tourne_motor = robm_tp2_move.tourne_motor:main

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools_msgs" FILES "/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools_msgs/action/Increment.action" "DESTINATION" "share/teleop_tools_msgs/action")

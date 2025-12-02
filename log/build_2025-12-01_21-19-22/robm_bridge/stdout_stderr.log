@@ -1,0 +1,37 @@
+/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+Removing /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm-bridge.egg-link (link to .)
+/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/robm_bridge/robm_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/robm_bridge/robm_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/robm_bridge/robm_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/robm_bridge/robm_bridge.egg-info/requires.txt
+writing top-level names to ../../build/robm_bridge/robm_bridge.egg-info/top_level.txt
+reading manifest file '../../build/robm_bridge/robm_bridge.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robm_bridge/robm_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge
+copying /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge/build/lib/robm_bridge/zenoh_bridge.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge
+copying /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge/build/lib/robm_bridge/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge
+copying /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge/build/lib/robm_bridge/bridge_node.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge
+copying /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge/build/lib/robm_bridge/udp_bridge.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge
+byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge/zenoh_bridge.py to zenoh_bridge.cpython-312.pyc
+byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge/bridge_node.py to bridge_node.cpython-312.pyc
+byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge/udp_bridge.py to udp_bridge.cpython-312.pyc
+running install_data
+copying resource/robm_bridge -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/share/robm_bridge
+running install_egg_info
+Copying ../../build/robm_bridge/robm_bridge.egg-info to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm_bridge-0.2.0-py3.12.egg-info
+running install_scripts
+Installing udp_bridge script to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/robm_bridge
+Installing zenoh_bridge script to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/robm_bridge
+writing list of installed files to '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge/install.log'

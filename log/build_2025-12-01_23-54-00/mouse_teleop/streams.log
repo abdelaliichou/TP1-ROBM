@@ -1,0 +1,41 @@
+[0.805s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop': CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/build --no-deps symlink_data
+[0.910s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.910s]   warnings.warn(msg)
+[0.930s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.930s] !!
+[0.930s] 
+[0.930s]         ********************************************************************************
+[0.930s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.930s] 
+[0.930s]         License :: OSI Approved :: BSD
+[0.931s] 
+[0.931s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.931s]         ********************************************************************************
+[0.931s] 
+[0.931s] !!
+[0.931s]   self._finalize_license_expression()
+[1.011s] running develop
+[1.132s] running egg_info
+[1.148s] creating mouse_teleop.egg-info
+[1.149s] writing mouse_teleop.egg-info/PKG-INFO
+[1.150s] writing dependency_links to mouse_teleop.egg-info/dependency_links.txt
+[1.150s] writing entry points to mouse_teleop.egg-info/entry_points.txt
+[1.151s] writing requirements to mouse_teleop.egg-info/requires.txt
+[1.151s] writing top-level names to mouse_teleop.egg-info/top_level.txt
+[1.151s] writing manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[1.184s] reading manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[1.185s] writing manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[1.203s] running build_ext
+[1.203s] Creating /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/python3.12/site-packages/mouse-teleop.egg-link (link to .)
+[1.204s] Installing mouse_teleop script to /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/mouse_teleop
+[1.205s] 
+[1.205s] Installed /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop
+[1.205s] running symlink_data
+[1.206s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/share/mouse_teleop
+[1.206s] creating /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/share/mouse_teleop/config
+[1.207s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/config/mouse_teleop.yaml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/share/mouse_teleop/config
+[1.207s] creating /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/share/mouse_teleop/launch
+[1.207s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/launch/mouse_teleop.launch.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/share/mouse_teleop/launch
+[1.208s] creating /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/share/ament_index/resource_index/packages
+[1.208s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/resource/mouse_teleop -> /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/share/ament_index/resource_index/packages
+[1.232s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop' returned '0': CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/build --no-deps symlink_data

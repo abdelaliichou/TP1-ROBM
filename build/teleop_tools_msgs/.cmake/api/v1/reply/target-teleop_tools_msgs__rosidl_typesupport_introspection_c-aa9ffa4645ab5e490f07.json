@@ -1,0 +1,618 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libteleop_tools_msgs__rosidl_typesupport_introspection_c.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rcutils/cmake/rcutilsExport.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_core_generators/cmake/rosidl_core_generators-extras.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_core_generators/cmake/rosidl_core_generatorsConfig.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_default_generators/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_ros_core/cmake/ament_cmake_ros_core-extras.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_ros_core/cmake/ament_cmake_ros_coreConfig.cmake",
+			"/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 50,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 6,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 165,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 165,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 165,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 165,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 170,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 19,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 19,
+				"line" : 41,
+				"parent" : 23
+			},
+			{
+				"file" : 18,
+				"parent" : 24
+			},
+			{
+				"command" : 9,
+				"file" : 18,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"file" : 17,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 17,
+				"line" : 41,
+				"parent" : 27
+			},
+			{
+				"file" : 16,
+				"parent" : 28
+			},
+			{
+				"command" : 9,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"file" : 15,
+				"parent" : 30
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 41,
+				"parent" : 31
+			},
+			{
+				"file" : 14,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 14,
+				"line" : 13,
+				"parent" : 33
+			},
+			{
+				"file" : 13,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 13,
+				"line" : 41,
+				"parent" : 35
+			},
+			{
+				"file" : 12,
+				"parent" : 36
+			},
+			{
+				"command" : 9,
+				"file" : 12,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"file" : 11,
+				"parent" : 38
+			},
+			{
+				"command" : 1,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 39
+			},
+			{
+				"file" : 10,
+				"parent" : 40
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 21,
+				"parent" : 41
+			},
+			{
+				"file" : 9,
+				"parent" : 42
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 43
+			},
+			{
+				"file" : 8,
+				"parent" : 44
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 45
+			},
+			{
+				"file" : 7,
+				"parent" : 46
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 61,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 22,
+				"parent" : 50
+			},
+			{
+				"command" : 9,
+				"file" : 22,
+				"line" : 21,
+				"parent" : 51
+			},
+			{
+				"file" : 21,
+				"parent" : 52
+			},
+			{
+				"command" : 1,
+				"file" : 21,
+				"line" : 41,
+				"parent" : 53
+			},
+			{
+				"file" : 20,
+				"parent" : 54
+			},
+			{
+				"command" : 10,
+				"file" : 20,
+				"line" : 18,
+				"parent" : 55
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include -std=gnu11 -fPIC"
+				},
+				{
+					"backtrace" : 49,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_teleop_tools_msgs"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "ROS_PACKAGE_NAME=\"teleop_tools_msgs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 57,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/service_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/rcutils"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/action_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/unique_identifier_msgs"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/include/rosidl_typesupport_introspection_c"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					49
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "teleop_tools_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "teleop_tools_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-shared",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -Wl,-rpath-link,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -L/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -Wl,-rpath-link,/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib -L/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "libteleop_tools_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libservice_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libaction_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libservice_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/libunique_identifier_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "teleop_tools_msgs__rosidl_typesupport_introspection_c",
+	"nameOnDisk" : "libteleop_tools_msgs__rosidl_typesupport_introspection_c.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

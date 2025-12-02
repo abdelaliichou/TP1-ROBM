@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robm_interfaces/msg/ServoCommand",
+      "fields": [
+        {
+          "name": "angle",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robm_interfaces/msg/ServoCommand",
+      "hash_string": "RIHS01_844feb989811097602ca9c3171d4cc200efcf09dc4ab05af3dca725de93db3dc"
+    }
+  ]
+}

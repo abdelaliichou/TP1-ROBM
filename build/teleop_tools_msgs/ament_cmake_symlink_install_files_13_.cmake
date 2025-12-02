@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools_msgs" FILES "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/teleop_tools_msgs/environment")

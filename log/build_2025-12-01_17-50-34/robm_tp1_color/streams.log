@@ -1,0 +1,29 @@
+[0.501s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_tp1_color': PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robm_tp1_color build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/install.log --single-version-externally-managed install_data
+[0.637s] running egg_info
+[0.646s] writing ../../build/robm_tp1_color/robm_tp1_color.egg-info/PKG-INFO
+[0.647s] writing dependency_links to ../../build/robm_tp1_color/robm_tp1_color.egg-info/dependency_links.txt
+[0.647s] writing entry points to ../../build/robm_tp1_color/robm_tp1_color.egg-info/entry_points.txt
+[0.647s] writing requirements to ../../build/robm_tp1_color/robm_tp1_color.egg-info/requires.txt
+[0.647s] writing top-level names to ../../build/robm_tp1_color/robm_tp1_color.egg-info/top_level.txt
+[0.666s] reading manifest file '../../build/robm_tp1_color/robm_tp1_color.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/robm_tp1_color/robm_tp1_color.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] copying robm_tp1_color/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build/lib/robm_tp1_color
+[0.667s] copying robm_tp1_color/couleur.py -> /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build/lib/robm_tp1_color
+[0.667s] running install
+[0.670s] running install_lib
+[0.680s] copying /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build/lib/robm_tp1_color/__init__.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages/robm_tp1_color
+[0.680s] copying /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build/lib/robm_tp1_color/couleur.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages/robm_tp1_color
+[0.680s] byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages/robm_tp1_color/__init__.py to __init__.cpython-312.pyc
+[0.681s] byte-compiling /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages/robm_tp1_color/couleur.py to couleur.cpython-312.pyc
+[0.681s] running install_data
+[0.681s] copying resource/robm_tp1_color -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/share/ament_index/resource_index/packages
+[0.681s] copying package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/share/robm_tp1_color
+[0.681s] running install_egg_info
+[0.690s] removing '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages/robm_tp1_color-0.0.0-py3.12.egg-info' (and everything under it)
+[0.691s] Copying ../../build/robm_tp1_color/robm_tp1_color.egg-info to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages/robm_tp1_color-0.0.0-py3.12.egg-info
+[0.692s] running install_scripts
+[0.741s] Installing couleur script to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/robm_tp1_color
+[0.741s] writing list of installed files to '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/install.log'
+[0.758s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_tp1_color' returned '0': PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robm_tp1_color build --build-base /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build install --record /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/install.log --single-version-externally-managed install_data

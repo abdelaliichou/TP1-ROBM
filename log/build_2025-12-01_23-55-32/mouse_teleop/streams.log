@@ -1,0 +1,32 @@
+[0.942s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop': PIXI_PROMPT=(robm) PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/build --no-deps symlink_data
+[1.032s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.032s]   warnings.warn(msg)
+[1.052s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[1.052s] !!
+[1.052s] 
+[1.052s]         ********************************************************************************
+[1.053s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[1.053s] 
+[1.053s]         License :: OSI Approved :: BSD
+[1.053s] 
+[1.053s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[1.053s]         ********************************************************************************
+[1.053s] 
+[1.053s] !!
+[1.053s]   self._finalize_license_expression()
+[1.138s] running develop
+[1.249s] running egg_info
+[1.259s] writing mouse_teleop.egg-info/PKG-INFO
+[1.260s] writing dependency_links to mouse_teleop.egg-info/dependency_links.txt
+[1.260s] writing entry points to mouse_teleop.egg-info/entry_points.txt
+[1.260s] writing requirements to mouse_teleop.egg-info/requires.txt
+[1.260s] writing top-level names to mouse_teleop.egg-info/top_level.txt
+[1.283s] reading manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[1.284s] writing manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[1.294s] running build_ext
+[1.294s] Creating /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/python3.12/site-packages/mouse-teleop.egg-link (link to .)
+[1.294s] Installing mouse_teleop script to /home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/mouse_teleop
+[1.295s] 
+[1.295s] Installed /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop
+[1.295s] running symlink_data
+[1.316s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop' returned '0': PIXI_PROMPT=(robm) PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/mouse_teleop/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/mouse_teleop/build --no-deps symlink_data

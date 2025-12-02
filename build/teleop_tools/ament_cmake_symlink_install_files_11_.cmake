@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/aichou/uni_projects/ROBM/robm-pixi/src/teleop_tools/teleop_tools" FILES "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/ament_cmake_index/share/ament_index/resource_index/packages/teleop_tools" "DESTINATION" "share/ament_index/resource_index/packages")

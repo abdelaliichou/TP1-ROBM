@@ -1,0 +1,23 @@
+-- Found ament_cmake: 2.7.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake/cmake)
+-- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/ament_index/resource_index/package_run_dependencies/teleop_tools
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/ament_index/resource_index/parent_prefix_path/teleop_tools
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.sh
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/environment/path.sh
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/environment/path.dsv
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/local_setup.bash
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/local_setup.sh
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/local_setup.zsh
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/local_setup.dsv
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/package.dsv
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/ament_index/resource_index/packages/teleop_tools
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig.cmake
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/cmake/teleop_toolsConfig-version.cmake
+-- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools/share/teleop_tools/package.xml

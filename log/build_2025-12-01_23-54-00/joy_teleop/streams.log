@@ -1,0 +1,42 @@
+[0.651s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop': AMENT_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) LD_LIBRARY_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/build --no-deps symlink_data
+[0.750s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.750s]   warnings.warn(msg)
+[0.769s] /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.769s] !!
+[0.770s] 
+[0.770s]         ********************************************************************************
+[0.770s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.770s] 
+[0.770s]         License :: OSI Approved :: BSD
+[0.770s] 
+[0.770s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.770s]         ********************************************************************************
+[0.770s] 
+[0.770s] !!
+[0.770s]   self._finalize_license_expression()
+[0.825s] running develop
+[0.932s] running egg_info
+[0.942s] creating joy_teleop.egg-info
+[0.942s] writing joy_teleop.egg-info/PKG-INFO
+[0.943s] writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+[0.943s] writing entry points to joy_teleop.egg-info/entry_points.txt
+[0.943s] writing requirements to joy_teleop.egg-info/requires.txt
+[0.943s] writing top-level names to joy_teleop.egg-info/top_level.txt
+[0.943s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[0.963s] reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[0.963s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[0.974s] running build_ext
+[0.974s] Creating /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/lib/python3.12/site-packages/joy-teleop.egg-link (link to .)
+[0.975s] Installing incrementer_server script to /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/lib/joy_teleop
+[0.975s] Installing joy_teleop script to /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/lib/joy_teleop
+[0.975s] 
+[0.975s] Installed /home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop
+[0.976s] running symlink_data
+[0.976s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/share/joy_teleop
+[0.976s] creating /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/share/joy_teleop/config
+[0.976s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/config/joy_teleop_example.yaml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/share/joy_teleop/config
+[0.976s] creating /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/share/joy_teleop/launch
+[0.976s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/launch/example.launch.py -> /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/share/joy_teleop/launch
+[0.976s] creating /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/share/ament_index/resource_index/packages
+[0.977s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/resource/joy_teleop -> /home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/share/ament_index/resource_index/packages
+[0.997s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) LD_LIBRARY_PATH=/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/joy_teleop/lib/python3.12/site-packages:/home/aichou/uni_projects/ROBM/robm-pixi/install/teleop_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/joy_teleop/build --no-deps symlink_data

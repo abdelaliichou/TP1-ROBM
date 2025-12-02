@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools_msgs/rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.so" "TARGETS" "teleop_tools_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/teleop_tools_msgs")

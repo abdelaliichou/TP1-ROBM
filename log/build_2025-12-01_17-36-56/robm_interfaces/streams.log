@@ -1,0 +1,303 @@
+[0.008s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake /home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces
+[0.044s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.044s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.044s]   CMake.
+[0.044s] 
+[0.044s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.044s]   to tell CMake that the project requires at least <min> but has been updated
+[0.045s]   to work with policies introduced by <max> or earlier.
+[0.045s] 
+[0.045s] [0m
+[0.335s] -- The C compiler identification is GNU 14.3.0
+[1.405s] -- The CXX compiler identification is GNU 14.3.0
+[2.253s] -- Detecting C compiler ABI info
+[2.378s] -- Detecting C compiler ABI info - done
+[2.390s] -- Check for working C compiler: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-cc - skipped
+[2.390s] -- Detecting C compile features
+[2.392s] -- Detecting C compile features - done
+[2.400s] -- Detecting CXX compiler ABI info
+[2.504s] -- Detecting CXX compiler ABI info - done
+[2.517s] -- Check for working CXX compiler: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/x86_64-conda-linux-gnu-c++ - skipped
+[2.517s] -- Detecting CXX compile features
+[2.517s] -- Detecting CXX compile features - done
+[2.538s] -- Found ament_cmake: 2.7.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake/cmake)
+[2.618s] -- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter
+[2.676s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.732s] -- Found std_msgs: 5.5.0 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/std_msgs/cmake)
+[2.845s] -- Found rosidl_generator_c: 4.9.5 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_c/cmake)
+[2.863s] -- Found rosidl_generator_cpp: 4.9.5 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_generator_cpp/cmake)
+[2.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.957s] -- Found rosidl_default_generators: 1.7.1 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_default_generators/cmake)
+[2.977s] -- Found rosidl_adapter: 4.9.5 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/rosidl_adapter/cmake)
+[3.343s] -- Found ament_cmake_ros_core: 0.14.3 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_cmake_ros_core/cmake)
+[3.790s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.373s] -- Found Python3: /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed
+[4.413s] -- Found ament_lint_auto: 0.19.2 (/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/share/ament_lint_auto/cmake)
+[4.462s] -- Added test 'lint_cmake' to check CMake code style
+[4.463s] -- Added test 'xmllint' to check XML markup files
+[4.467s] -- Configuring done (4.4s)
+[4.503s] -- Generating done (0.0s)
+[4.503s] [33mCMake Warning:
+[4.503s]   Manually-specified variables were not used by the project:
+[4.504s] 
+[4.504s]     Python_FIND_VIRTUALENV
+[4.504s] 
+[4.504s] [0m
+[4.508s] -- Build files have been written to: /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces
+[4.515s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake /home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces
+[4.516s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --build /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces -- -j22 -l22
+[4.537s] [  1%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[4.540s] [  1%] Built target ament_cmake_python_symlink_robm_interfaces
+[4.681s] [  1%] Built target robm_interfaces__rosidl_generator_type_description
+[4.685s] [  3%] [1m[34mGenerating C code for ROS interfaces[0m
+[4.689s] [  4%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[4.689s] running egg_info
+[4.700s] creating robm_interfaces.egg-info
+[4.700s] writing robm_interfaces.egg-info/PKG-INFO
+[4.700s] writing dependency_links to robm_interfaces.egg-info/dependency_links.txt
+[4.701s] writing top-level names to robm_interfaces.egg-info/top_level.txt
+[4.701s] writing manifest file 'robm_interfaces.egg-info/SOURCES.txt'
+[4.734s] reading manifest file 'robm_interfaces.egg-info/SOURCES.txt'
+[4.735s] writing manifest file 'robm_interfaces.egg-info/SOURCES.txt'
+[4.752s] [  4%] Built target ament_cmake_python_build_robm_interfaces_egg
+[4.890s] [  4%] Built target robm_interfaces__cpp
+[4.924s] [  6%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/color__description.c.o[0m
+[4.924s] [  7%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/color__functions.c.o[0m
+[4.924s] [  9%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/rover_motors_cmd__description.c.o[0m
+[4.925s] [ 10%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/rover_motors_cmd__functions.c.o[0m
+[4.925s] [ 12%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/gripper_command__description.c.o[0m
+[4.926s] [ 14%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/color__type_support.c.o[0m
+[4.926s] [ 15%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/servo_command__description.c.o[0m
+[4.927s] [ 17%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/servo_command__type_support.c.o[0m
+[4.927s] [ 18%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/rover_motors_cmd__type_support.c.o[0m
+[4.928s] [ 20%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/gripper_command__functions.c.o[0m
+[4.929s] [ 21%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/gripper_command__type_support.c.o[0m
+[4.930s] [ 23%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robm_interfaces/msg/detail/servo_command__functions.c.o[0m
+[5.009s] [ 25%] [1m[32mLinking C shared library librobm_interfaces__rosidl_generator_c.so[0m
+[5.149s] [ 25%] Built target robm_interfaces__rosidl_generator_c
+[5.154s] [ 29%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.154s] [ 29%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[5.154s] [ 29%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[5.154s] [ 31%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[5.155s] [ 32%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.156s] [ 34%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[5.321s] [ 35%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robm_interfaces/msg/rover_motors_cmd__type_support.cpp.o[0m
+[5.321s] [ 37%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robm_interfaces/msg/servo_command__type_support.cpp.o[0m
+[5.322s] [ 39%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robm_interfaces/msg/color__type_support.cpp.o[0m
+[5.323s] [ 40%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robm_interfaces/msg/gripper_command__type_support.cpp.o[0m
+[5.332s] [ 42%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/servo_command__type_support.cpp.o[0m
+[5.332s] [ 43%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/rover_motors_cmd__type_support.cpp.o[0m
+[5.332s] [ 45%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/gripper_command__type_support.cpp.o[0m
+[5.333s] [ 46%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robm_interfaces/msg/detail/color__type_support.cpp.o[0m
+[5.343s] [ 48%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robm_interfaces/msg/color__type_support.cpp.o[0m
+[5.343s] [ 50%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robm_interfaces/msg/servo_command__type_support.cpp.o[0m
+[5.344s] [ 51%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robm_interfaces/msg/gripper_command__type_support.cpp.o[0m
+[5.345s] [ 53%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robm_interfaces/msg/rover_motors_cmd__type_support.cpp.o[0m
+[5.351s] [ 54%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robm_interfaces/msg/detail/rover_motors_cmd__type_support.c.o[0m
+[5.351s] [ 56%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robm_interfaces/msg/detail/color__type_support.c.o[0m
+[5.354s] [ 57%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robm_interfaces/msg/detail/servo_command__type_support.c.o[0m
+[5.354s] [ 59%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robm_interfaces/msg/detail/gripper_command__type_support.c.o[0m
+[5.383s] [ 62%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robm_interfaces/msg/detail/rover_motors_cmd__type_support_c.cpp.o[0m
+[5.383s] [ 62%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robm_interfaces/msg/detail/color__type_support_c.cpp.o[0m
+[5.384s] [ 65%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robm_interfaces/msg/detail/servo_command__type_support_c.cpp.o[0m
+[5.384s] [ 65%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robm_interfaces/msg/detail/gripper_command__type_support_c.cpp.o[0m
+[5.396s] [ 67%] [1m[32mLinking CXX shared library librobm_interfaces__rosidl_typesupport_c.so[0m
+[5.398s] [ 68%] [1m[32mLinking C shared library librobm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.416s] [ 71%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robm_interfaces/msg/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[5.416s] [ 71%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robm_interfaces/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[5.416s] [ 75%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robm_interfaces/msg/detail/dds_fastrtps/rover_motors_cmd__type_support.cpp.o[0m
+[5.416s] [ 75%] [32mBuilding CXX object CMakeFiles/robm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robm_interfaces/msg/detail/dds_fastrtps/servo_command__type_support.cpp.o[0m
+[5.492s] [ 75%] Built target robm_interfaces__rosidl_typesupport_introspection_c
+[5.511s] [ 75%] Built target robm_interfaces__rosidl_typesupport_c
+[5.867s] [ 76%] [1m[32mLinking CXX shared library librobm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.881s] [ 78%] [1m[32mLinking CXX shared library librobm_interfaces__rosidl_typesupport_cpp.so[0m
+[5.988s] [ 78%] Built target robm_interfaces__rosidl_typesupport_cpp
+[5.994s] [ 78%] Built target robm_interfaces__rosidl_typesupport_introspection_cpp
+[6.027s] [ 79%] [1m[32mLinking CXX shared library librobm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.088s] [ 81%] [1m[32mLinking CXX shared library librobm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.152s] [ 81%] Built target robm_interfaces__rosidl_typesupport_fastrtps_c
+[6.193s] [ 81%] Built target robm_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.201s] [ 81%] Built target robm_interfaces
+[6.210s] [ 82%] [1m[34mGenerating Python code for ROS interfaces[0m
+[6.481s] [ 82%] Built target robm_interfaces__py
+[6.488s] [ 84%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robm_interfaces/msg/_color_s.c.o[0m
+[6.489s] [ 85%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robm_interfaces/msg/_rover_motors_cmd_s.c.o[0m
+[6.489s] [ 87%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robm_interfaces/msg/_servo_command_s.c.o[0m
+[6.489s] [ 89%] [32mBuilding C object CMakeFiles/robm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robm_interfaces/msg/_gripper_command_s.c.o[0m
+[6.635s] [ 90%] [1m[32mLinking C shared library librobm_interfaces__rosidl_generator_py.so[0m
+[6.722s] [ 90%] Built target robm_interfaces__rosidl_generator_py
+[6.730s] [ 92%] [32mBuilding C object CMakeFiles/robm_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robm_interfaces/_robm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.730s] [ 93%] [32mBuilding C object CMakeFiles/robm_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robm_interfaces/_robm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.731s] [ 95%] [32mBuilding C object CMakeFiles/robm_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robm_interfaces/_robm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.820s] [ 96%] [1m[32mLinking C shared module rosidl_generator_py/robm_interfaces/robm_interfaces_s__rosidl_typesupport_c.so[0m
+[6.820s] [ 98%] [1m[32mLinking C shared module rosidl_generator_py/robm_interfaces/robm_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.824s] [100%] [1m[32mLinking C shared module rosidl_generator_py/robm_interfaces/robm_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[6.896s] [100%] Built target robm_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.896s] [100%] Built target robm_interfaces_s__rosidl_typesupport_c
+[6.898s] [100%] Built target robm_interfaces_s__rosidl_typesupport_introspection_c
+[6.903s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --build /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces -- -j22 -l22
+[6.907s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --install /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces
+[6.910s] -- Install configuration: ""
+[6.910s] -- Execute custom install script
+[6.911s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/ament_index/resource_index/rosidl_interfaces/robm_interfaces
+[6.914s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/Color.json
+[6.917s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/RoverMotorsCmd.json
+[6.920s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/GripperCommand.json
+[6.923s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/ServoCommand.json
+[6.926s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/color.h
+[6.929s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__functions.h
+[6.932s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__struct.h
+[6.935s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__type_support.h
+[6.938s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__functions.h
+[6.941s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__struct.h
+[6.944s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__type_support.h
+[6.946s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__functions.h
+[6.949s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__struct.h
+[6.953s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__type_support.h
+[6.956s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__functions.h
+[6.959s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__struct.h
+[6.962s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__type_support.h
+[6.964s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/gripper_command.h
+[6.967s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.970s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/rover_motors_cmd.h
+[6.972s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/servo_command.h
+[6.975s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/library_path.sh
+[6.979s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/library_path.dsv
+[6.982s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[6.985s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[6.987s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__rosidl_typesupport_fastrtps_c.h
+[6.990s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__rosidl_typesupport_fastrtps_c.h
+[6.993s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.997s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/color.hpp
+[7.000s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__builder.hpp
+[7.003s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__struct.hpp
+[7.006s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__traits.hpp
+[7.008s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__type_support.hpp
+[7.011s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__builder.hpp
+[7.014s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__struct.hpp
+[7.017s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__traits.hpp
+[7.020s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__type_support.hpp
+[7.023s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__builder.hpp
+[7.025s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__struct.hpp
+[7.028s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__traits.hpp
+[7.031s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__type_support.hpp
+[7.034s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__builder.hpp
+[7.037s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__struct.hpp
+[7.039s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__traits.hpp
+[7.042s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__type_support.hpp
+[7.045s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/gripper_command.hpp
+[7.048s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.051s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/rover_motors_cmd.hpp
+[7.054s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/servo_command.hpp
+[7.057s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[7.059s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[7.062s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.065s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__rosidl_typesupport_fastrtps_cpp.hpp
+[7.067s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.070s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__rosidl_typesupport_introspection_c.h
+[7.073s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[7.076s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__rosidl_typesupport_introspection_c.h
+[7.079s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__rosidl_typesupport_introspection_c.h
+[7.082s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.085s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[7.088s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[7.091s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/rover_motors_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.094s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/include/robm_interfaces/robm_interfaces/msg/detail/servo_command__rosidl_typesupport_introspection_cpp.hpp
+[7.097s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/pythonpath.sh
+[7.100s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/pythonpath.dsv
+[7.103s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+[7.106s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+[7.110s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+[7.113s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+[7.116s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/__init__.py
+[7.118s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/_robm_interfaces_s.ep.rosidl_typesupport_c.c
+[7.121s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/_robm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.124s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/_robm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.128s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/__init__.py
+[7.131s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_color.py
+[7.133s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_color_s.c
+[7.136s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_gripper_command.py
+[7.139s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_gripper_command_s.c
+[7.142s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_rover_motors_cmd.py
+[7.145s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_rover_motors_cmd_s.c
+[7.148s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_servo_command.py
+[7.152s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_servo_command_s.c
+[7.156s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/robm_interfaces_s__rosidl_typesupport_c.so
+[7.159s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/robm_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.162s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/robm_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.164s] -- Up-to-date symlink: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/robm_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.165s] -- Up-to-date symlink: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/robm_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.165s] -- Up-to-date symlink: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/robm_interfaces_s__rosidl_typesupport_c.so
+[7.165s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/Color.idl
+[7.168s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/RoverMotorsCmd.idl
+[7.171s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/GripperCommand.idl
+[7.173s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/ServoCommand.idl
+[7.176s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/Color.msg
+[7.179s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/RoverMotorsCmd.msg
+[7.184s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/GripperCommand.msg
+[7.187s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/msg/ServoCommand.msg
+[7.190s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/ament_index/resource_index/package_run_dependencies/robm_interfaces
+[7.193s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/ament_index/resource_index/parent_prefix_path/robm_interfaces
+[7.196s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/ament_prefix_path.sh
+[7.198s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/ament_prefix_path.dsv
+[7.201s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/path.sh
+[7.205s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/environment/path.dsv
+[7.208s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/local_setup.bash
+[7.211s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/local_setup.sh
+[7.214s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/local_setup.zsh
+[7.217s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/local_setup.dsv
+[7.220s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/package.dsv
+[7.223s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/ament_index/resource_index/packages/robm_interfaces
+[7.226s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.229s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.231s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.234s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.237s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.240s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.243s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.246s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfacesConfig.cmake
+[7.248s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfacesConfig-version.cmake
+[7.251s] -- Symlinking: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/package.xml
+[7.254s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_generator_c.so
+[7.254s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.254s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.254s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.255s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.255s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_introspection_c.so
+[7.255s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.255s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_c.so
+[7.255s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_c.so" to ""
+[7.255s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.255s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.255s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_cpp.so
+[7.255s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.284s] Listing '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces'...
+[7.284s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/__init__.py'...
+[7.284s] Listing '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg'...
+[7.284s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/__init__.py'...
+[7.284s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_color.py'...
+[7.284s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_gripper_command.py'...
+[7.284s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_rover_motors_cmd.py'...
+[7.284s] Compiling '/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/python3.12/site-packages/robm_interfaces/msg/_servo_command.py'...
+[7.288s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_generator_py.so
+[7.288s] -- Set non-toolchain portion of runtime path of "/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/lib/librobm_interfaces__rosidl_generator_py.so" to ""
+[7.288s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_generator_cExport.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_generator_cppExport.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_cExport.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.289s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.290s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.290s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_cppExport.cmake
+[7.290s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/robm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.290s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_generator_pyExport.cmake
+[7.290s] -- Installing: /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_interfaces/share/robm_interfaces/cmake/export_robm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.291s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge CONDA_ENV_SHLVL_2_PIXI_PROMPT=(robm) PIXI_PROMPT=(robm) PS1=(robm) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/cmake --install /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_interfaces

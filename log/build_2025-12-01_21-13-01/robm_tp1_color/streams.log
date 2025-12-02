@@ -1,0 +1,19 @@
+[0.518s] Invoking command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color': PIXI_PROMPT=(robm) PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build --no-deps symlink_data --force
+[0.669s] running develop
+[0.765s] running egg_info
+[0.773s] writing robm_tp1_color.egg-info/PKG-INFO
+[0.774s] writing dependency_links to robm_tp1_color.egg-info/dependency_links.txt
+[0.774s] writing entry points to robm_tp1_color.egg-info/entry_points.txt
+[0.774s] writing requirements to robm_tp1_color.egg-info/requires.txt
+[0.774s] writing top-level names to robm_tp1_color.egg-info/top_level.txt
+[0.801s] reading manifest file 'robm_tp1_color.egg-info/SOURCES.txt'
+[0.807s] writing manifest file 'robm_tp1_color.egg-info/SOURCES.txt'
+[0.828s] running build_ext
+[0.828s] Creating /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages/robm-tp1-color.egg-link (link to .)
+[0.829s] Installing couleur script to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/robm_tp1_color
+[0.830s] 
+[0.830s] Installed /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color
+[0.830s] running symlink_data
+[0.831s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/resource/robm_tp1_color -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/share/ament_index/resource_index/packages
+[0.833s] symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/share/robm_tp1_color
+[0.879s] Invoked command in '/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color' returned '0': PIXI_PROMPT=(robm) PYTHONPATH=/home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/prefix_override:/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/aichou/uni_projects/ROBM/robm-pixi/install/robm_tp1_color/lib/python3.12/site-packages:${PYTHONPATH} /home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_tp1_color/build --no-deps symlink_data --force
