@@ -738,13 +738,13 @@ in the first terminal
 ```
 ros2 run robm_tp2_move dynamic_motor
 ```
-![Robot movement](images/tourne.png)
+![Robot movement](images/move robot puthon file.png)
 
 in the second terminal
 ```
  ros2 run key_teleop key_teleop --ros-args -p rotation_rate:=0.5 -r key_vel:=vel
 ```
-![Robot movement](images/tourne.png)
-![Robot movement](images/tourne.png)
+![Robot movement](<images/move robot keyboard command.png>)
+![Robot movement](<images/move robot keyboard interface.png>)
 
 
