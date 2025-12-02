@@ -1,1 +1,0 @@
-/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh

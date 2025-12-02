@@ -1,9 +1,0 @@
-{
-  "package_name": "robm_interfaces",
-  "non_idl_tuples": [
-    "/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces:msg/Color.msg",
-    "/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces:msg/RoverMotorsCmd.msg",
-    "/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces:msg/GripperCommand.msg",
-    "/home/aichou/uni_projects/ROBM/robm-pixi/src/robm_interfaces:msg/ServoCommand.msg"
-  ]
-}

@@ -1,0 +1,23 @@
+/home/aichou/uni_projects/ROBM/robm-pixi/.pixi/envs/default/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+creating robm_bridge.egg-info
+writing robm_bridge.egg-info/PKG-INFO
+writing dependency_links to robm_bridge.egg-info/dependency_links.txt
+writing entry points to robm_bridge.egg-info/entry_points.txt
+writing requirements to robm_bridge.egg-info/requires.txt
+writing top-level names to robm_bridge.egg-info/top_level.txt
+writing manifest file 'robm_bridge.egg-info/SOURCES.txt'
+reading manifest file 'robm_bridge.egg-info/SOURCES.txt'
+writing manifest file 'robm_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/python3.12/site-packages/robm-bridge.egg-link (link to .)
+Installing udp_bridge script to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/robm_bridge
+Installing zenoh_bridge script to /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/lib/robm_bridge
+
+Installed /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge
+running symlink_data
+creating /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge/resource/robm_bridge -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/aichou/uni_projects/ROBM/robm-pixi/build/robm_bridge/package.xml -> /home/aichou/uni_projects/ROBM/robm-pixi/install/robm_bridge/share/robm_bridge

@@ -1,8 +1,0 @@
-msg/Color.idl
-msg/Color.msg
-msg/GripperCommand.idl
-msg/GripperCommand.msg
-msg/RoverMotorsCmd.idl
-msg/RoverMotorsCmd.msg
-msg/ServoCommand.idl
-msg/ServoCommand.msg

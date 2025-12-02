@@ -1,3 +1,0 @@
-[console_scripts]
-udp_bridge = robm_bridge.udp_bridge:main
-zenoh_bridge = robm_bridge.zenoh_bridge:main

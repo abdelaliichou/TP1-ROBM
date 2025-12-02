@@ -1,1 +1,0 @@
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/ament_cmake_environment_hooks/local_setup.bash

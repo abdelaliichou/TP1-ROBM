@@ -1,8 +1,0 @@
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/uninstall.dir
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/teleop_tools_uninstall.dir
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/test.dir
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/edit_cache.dir
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/rebuild_cache.dir
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/list_install_components.dir
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/install.dir
-/home/aichou/uni_projects/ROBM/robm-pixi/build/teleop_tools/CMakeFiles/install/local.dir
