@@ -738,7 +738,7 @@ in the first terminal
 ```
 ros2 run robm_tp2_move dynamic_motor
 ```
-![Robot movement](images/move robot puthon file.png)
+![Robot movement](<images/move robot puthon file.png>)
 
 in the second terminal
 ```
